@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:33681/</loc>
+    <loc>https://sersavn.github.io/posts/my-secondpost/</loc>
     <lastmod>2024-12-05T11:10:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/posts/my-secondpost/</loc>
+    <loc>https://sersavn.github.io/posts/my-thirdpost/</loc>
     <lastmod>2024-12-05T11:10:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/posts/my-thirdpost/</loc>
+    <loc>https://sersavn.github.io/posts/counting/</loc>
     <lastmod>2024-12-05T11:10:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/posts/counting/</loc>
+    <loc>https://sersavn.github.io/posts/my-first-post/</loc>
     <lastmod>2024-12-05T11:10:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/posts/my-first-post/</loc>
+    <loc>https://sersavn.github.io/posts/</loc>
     <lastmod>2024-12-05T11:10:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/posts/</loc>
+    <loc>https://sersavn.github.io/</loc>
     <lastmod>2024-12-05T11:10:13+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/tags/first/</loc>
+    <loc>https://sersavn.github.io/tags/first/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/posts/page/</loc>
+    <loc>https://sersavn.github.io/posts/page/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/tags/</loc>
+    <loc>https://sersavn.github.io/tags/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:33681/categories/</loc>
+    <loc>https://sersavn.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:33681/concept-map/</loc>
+    <loc>https://sersavn.github.io/concept-map/</loc>
   </url><url>
-    <loc>http://localhost:33681/search/</loc>
+    <loc>https://sersavn.github.io/search/</loc>
   </url>
 </urlset>
