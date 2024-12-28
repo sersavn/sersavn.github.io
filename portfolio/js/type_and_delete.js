@@ -40,10 +40,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateSpeeds() {
         // Divide speeds and pause by 5
-        typingSpeed = 90;
-        deletingSpeed = 45;
-        pause = 900;
-        charsAtOnce = 1; // Number of characters to type at once
+        typingSpeed = 40;
+        deletingSpeed = 20;
+        pause = 450;
+        charsAtOnce = 5; // Number of characters to type at once
     }
 
     function typeAndDelete() {
