@@ -1,0 +1,28 @@
+{
+  "nodes": [
+    { "id": "Counting", "group": 1, "url" : "posts/counting" },
+    { "id": "Multiplication Rule", "group": 2, "url" : "posts/counting" },
+    { "id": "Sampling Table", "group": 2 },
+    { "id": "Naive Definition of Probability", "group": 2 },
+    { "id": "Conditional Probability", "group": 1 },
+    { "id": "Independence", "group": 2 },
+    { "id": "Unions, Intersections, Complements", "group": 2 },
+    { "id": "Joint/Marginal/Conditional Prob", "group": 2 },
+    { "id": "Prob of Intersections/Unions", "group": 2 },
+    { "id": "Simposons Paradox", "group": 2 },
+    { "id": "Law of Total Probability", "group": 2 },
+    { "id": "Bayes Rule", "group": 2 }
+  ],
+  "links": [
+    { "source": "Counting", "target": "Multiplication Rule" },
+    { "source": "Counting", "target": "Sampling Table" },
+    { "source": "Counting", "target": "Naive Definition of Probability" },
+    { "source": "Conditional Probability", "target": "Independence" },
+    { "source": "Conditional Probability", "target": "Unions, Intersections, Complements" },
+    { "source": "Conditional Probability", "target": "Joint/Marginal/Conditional Prob" },
+    { "source": "Conditional Probability", "target": "Prob of Intersections/Unions" },
+    { "source": "Conditional Probability", "target": "Simposons Paradox" },
+    { "source": "Conditional Probability", "target": "Law of Total Probability" },
+    { "source": "Conditional Probability", "target": "Bayes Rule" }
+  ]
+}

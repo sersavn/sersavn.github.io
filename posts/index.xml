@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on ExampleSite</title>
+    <link>http://localhost:33681/posts/</link>
+    <description>Recent content in Posts on ExampleSite</description>
+    <image>
+      <title>ExampleSite</title>
+      <url>http://localhost:33681/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:33681/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Dec 2024 11:10:13 +0700</lastBuildDate>
+    <atom:link href="http://localhost:33681/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My 2 Post</title>
+      <link>http://localhost:33681/posts/my-secondpost/</link>
+      <pubDate>Thu, 05 Dec 2024 11:10:13 +0700</pubDate>
+      <guid>http://localhost:33681/posts/my-secondpost/</guid>
+      <description>&lt;h3 id=&#34;hello&#34;&gt;Hello&lt;/h3&gt;
+&lt;p&gt;Hello, this is my 2 post using PaperMod on Hugo!&lt;/p&gt;
+&lt;h3 id=&#34;hello-1&#34;&gt;Hello&lt;/h3&gt;
+&lt;!-- raw HTML omitted --&gt;</description>
+    </item>
+    <item>
+      <title>My 3 Post</title>
+      <link>http://localhost:33681/posts/my-thirdpost/</link>
+      <pubDate>Thu, 05 Dec 2024 11:10:13 +0700</pubDate>
+      <guid>http://localhost:33681/posts/my-thirdpost/</guid>
+      <description>&lt;p&gt;Hello, this is my first post using PaperMod on Hugo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:33681/posts/counting/</link>
+      <pubDate>Thu, 05 Dec 2024 11:10:13 +0700</pubDate>
+      <guid>http://localhost:33681/posts/counting/</guid>
+      <description>&lt;p&gt;Hello world!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Cauchy-Schwarz Inequality&lt;/strong&gt;&lt;br&gt;
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$&lt;/p&gt;
+&lt;p&gt;This is an inline (a^&lt;em&gt;=x-b^&lt;/em&gt;) equation.
+These are block equations:
+[a^&lt;em&gt;=x-b^&lt;/em&gt;]
+[ a^&lt;em&gt;=x-b^&lt;/em&gt; ]
+[
+a^&lt;em&gt;=x-b^&lt;/em&gt;
+]
+These are block equations using alternate delimiters:
+$$a^&lt;em&gt;=x-b^&lt;/em&gt;$$
+$$ a^&lt;em&gt;=x-b^&lt;/em&gt; $$
+$$
+a^&lt;em&gt;=x-b^&lt;/em&gt;
+$$&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:33681/posts/my-first-post/</link>
+      <pubDate>Thu, 05 Dec 2024 11:10:13 +0700</pubDate>
+      <guid>http://localhost:33681/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Hello, this is my first post using PaperMod on Hugo!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My 1st post! Copied from theme</title>
+      <link>http://localhost:33681/posts/page/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <guid>http://localhost:33681/posts/page/</guid>
+      <description>Desc Text.</description>
+    </item>
+  </channel>
+</rss>
