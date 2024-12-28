@@ -105,26 +105,28 @@
     outline: none; 
 }
 
-html, body {
+html {
     /* Positioning */
-    position: relative; 
+    position: relative;
     max-width: var(--page-max-width);
     margin: auto;
     /* Box Model */
-    width: 100%; 
-    display: flex;
-    justify-content: center;
+    width: 100%;
     overflow-x: hidden;
+    /* Typography */
+    font-size: 20px;
 }
 
 body {
     /* Positioning */
-    position: relative; 
+    position: relative;
     /* Box Model */
-    min-height: 100vh; 
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
     /* Visual Styles */
-    background-color: rgb(var(--bg-color-rgb)); 
+    background-color: rgb(var(--bg-color-rgb));
 }
 
 /* white line */
