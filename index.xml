@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>sersavn.github.io</title>
-    <link>http://localhost:1313/</link>
+    <link>https://sersavn.github.io/</link>
     <description>Recent content on sersavn.github.io</description>
     <image>
       <title>sersavn.github.io</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://sersavn.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://sersavn.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.140.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Dec 2024 11:10:13 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://sersavn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My 2 Post</title>
-      <link>http://localhost:1313/posts/my-secondpost/</link>
+      <link>https://sersavn.github.io/posts/my-secondpost/</link>
       <pubDate>Thu, 05 Dec 2024 11:10:13 +0700</pubDate>
-      <guid>http://localhost:1313/posts/my-secondpost/</guid>
+      <guid>https://sersavn.github.io/posts/my-secondpost/</guid>
       <description>&lt;h3 id=&#34;hello&#34;&gt;Hello&lt;/h3&gt;
 &lt;p&gt;Hello, this is my 2 post using PaperMod on Hugo!&lt;/p&gt;
 &lt;h3 id=&#34;hello-1&#34;&gt;Hello&lt;/h3&gt;
@@ -25,16 +25,16 @@
     </item>
     <item>
       <title>My 3 Post</title>
-      <link>http://localhost:1313/posts/my-thirdpost/</link>
+      <link>https://sersavn.github.io/posts/my-thirdpost/</link>
       <pubDate>Thu, 05 Dec 2024 11:10:13 +0700</pubDate>
-      <guid>http://localhost:1313/posts/my-thirdpost/</guid>
+      <guid>https://sersavn.github.io/posts/my-thirdpost/</guid>
       <description>&lt;p&gt;Hello, this is my first post using PaperMod on Hugo!&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/counting/</link>
+      <link>https://sersavn.github.io/posts/counting/</link>
       <pubDate>Thu, 05 Dec 2024 11:10:13 +0700</pubDate>
-      <guid>http://localhost:1313/posts/counting/</guid>
+      <guid>https://sersavn.github.io/posts/counting/</guid>
       <description>&lt;p&gt;Hello world!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;The Cauchy-Schwarz Inequality&lt;/strong&gt;&lt;br&gt;
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$&lt;/p&gt;
@@ -54,23 +54,23 @@ $$&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://sersavn.github.io/posts/my-first-post/</link>
       <pubDate>Thu, 05 Dec 2024 11:10:13 +0700</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://sersavn.github.io/posts/my-first-post/</guid>
       <description>&lt;p&gt;Hello, this is my first post using PaperMod on Hugo!&lt;/p&gt;</description>
     </item>
     <item>
       <title>My 1st post! Copied from theme</title>
-      <link>http://localhost:1313/posts/page/</link>
+      <link>https://sersavn.github.io/posts/page/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/page/</guid>
+      <guid>https://sersavn.github.io/posts/page/</guid>
       <description>Desc Text.</description>
     </item>
     <item>
       <title>Concept Map</title>
-      <link>http://localhost:1313/concept-map/</link>
+      <link>https://sersavn.github.io/concept-map/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/concept-map/</guid>
+      <guid>https://sersavn.github.io/concept-map/</guid>
       <description>&lt;p&gt;This content will not directly appear but serves to route the layout.&lt;/p&gt;</description>
     </item>
   </channel>

@@ -38,11 +38,15 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const words = jobDescription.toLowerCase().split(/\s+/).map(word => word.trim());
         
+        
         document.querySelectorAll('.tagcloud-tag').forEach(tag => {
             const tagName = tag.dataset.tag;
             console.log('Checking tag:', tagName); // Log each tag being checked
             tag.classList.remove('known', 'unknown', 'extra');
-
+            
+            console.log('-> words: ', words);
+            console.log('-> jobDescription: ', jobDescription);
+            
             if (familiarSkills.includes(tagName) && words.includes(tagName)) {
                 tag.classList.add('known');
             } else if (!familiarSkills.includes(tagName) && words.includes(tagName)) {
