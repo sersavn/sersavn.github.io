@@ -1,7 +1,22 @@
 document.addEventListener("DOMContentLoaded", function() {
     const textarea = document.getElementById('jobDescription');
     const tags = document.querySelectorAll('.tagcloud-tag a');
-    
+
+    // Initialize an empty array for familiarTags; it will be filled from the JSON file
+    let familiarTags = [];
+
+    // Fetch familiar tags from the JSON file
+    fetch('portfolio/data/familiar_tags.json')
+        .then(response => response.json())
+        .then(data => {
+            // Extract the 'tag' from each item and store it in the familiarTags array
+            familiarTags = data.map(item => item.tag);
+            console.log('Familiar Skills loaded:', familiarTags);
+        })
+        .catch(error => {
+            console.error('Error loading familiar tags:', error);
+        });
+
     document.getElementById('jobDescription').addEventListener('input', function() {
         console.log('Job Description:', this.value);
     });
@@ -12,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const tagName = tag.closest('.tagcloud-tag').dataset.tag; // Get tag name from parent tag
         });
     });
-    
+
     /**
      * Reset all tags to their default color and state.
      */
@@ -36,22 +51,21 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        const words = jobDescription.toLowerCase().split(/\s+/).map(word => word.trim());
-        
+        const jobdescr_words = jobDescription.toLowerCase().split(/\s+/).map(word => word.trim());
         
         document.querySelectorAll('.tagcloud-tag').forEach(tag => {
             const tagName = tag.dataset.tag;
             console.log('Checking tag:', tagName); // Log each tag being checked
             tag.classList.remove('known', 'unknown', 'extra');
             
-            console.log('-> words: ', words);
+            console.log('-> jobdescr_words: ', jobdescr_words);
             console.log('-> jobDescription: ', jobDescription);
             
-            if (familiarSkills.includes(tagName) && words.includes(tagName)) {
+            if (familiarTags.includes(tagName) && jobdescr_words.includes(tagName)) {
                 tag.classList.add('known');
-            } else if (!familiarSkills.includes(tagName) && words.includes(tagName)) {
+            } else if (!familiarTags.includes(tagName) && jobdescr_words.includes(tagName)) {
                 tag.classList.add('unknown');
-            } else if (familiarSkills.includes(tagName) && !words.includes(tagName)) {
+            } else if (familiarTags.includes(tagName) && !jobdescr_words.includes(tagName)) {
                 tag.classList.add('extra');
             }
         });
