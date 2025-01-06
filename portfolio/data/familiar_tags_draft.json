@@ -4,107 +4,119 @@
         "tag": "ab-testing"
     },
     {
-        "anchor": "Amazon Web Services",
-        "tag": "amazon-web-services"
+        "anchor": "Algorithms",
+        "tag": "algorithms"
     },
     {
-        "anchor": "Antifraud",
-        "tag": "antifraud"
+        "anchor": "BI Dashboards",
+        "tag": "bi-dashboards"
     },
     {
-        "anchor": "ArangoDB",
-        "tag": "arangodb"
+        "anchor": "BI Tools",
+        "tag": "bi-tools"
     },
     {
-        "anchor": "Computer Vision",
-        "tag": "computer-vision"
+        "anchor": "Business Acumen",
+        "tag": "business-acumen"
+    },
+    {
+        "anchor": "Dashboards",
+        "tag": "dashboards"
+    },
+    {
+        "anchor": "Data Analysis",
+        "tag": "data-analysis"
     },
     {
         "anchor": "Data Cleaning & Preprocessing",
         "tag": "data-cleaning-&-preprocessing"
     },
     {
-        "anchor": "Data Engineering",
-        "tag": "data-engineering"
-    },
-    {
-        "anchor": "Data Governance & Security",
-        "tag": "data-governance-&-security"
+        "anchor": "Data Manipulation",
+        "tag": "data-manipulation"
     },
     {
         "anchor": "Data Modeling",
         "tag": "data-modeling"
     },
     {
-        "anchor": "Data Pipelines",
-        "tag": "data-pipelines"
-    },
-    {
         "anchor": "Data Processing",
         "tag": "data-processing"
+    },
+    {
+        "anchor": "Data Quality",
+        "tag": "data-quality"
+    },
+    {
+        "anchor": "Data Structures",
+        "tag": "data-structures"
     },
     {
         "anchor": "Data Visualization",
         "tag": "data-visualization"
     },
     {
-        "anchor": "Data Warehousing",
-        "tag": "data-warehousing"
-    },
-    {
-        "anchor": "Databases",
-        "tag": "databases"
-    },
-    {
-        "anchor": "Dynamic Pricing",
-        "tag": "dynamic-pricing"
+        "anchor": "EDA",
+        "tag": "eda"
     },
     {
         "anchor": "ETL",
         "tag": "etl"
     },
     {
+        "anchor": "ETL Processes",
+        "tag": "etl-processes"
+    },
+    {
+        "anchor": "Excel",
+        "tag": "excel"
+    },
+    {
         "anchor": "Experiment design",
         "tag": "experiment-design"
     },
     {
-        "anchor": "Hadoop",
-        "tag": "hadoop"
+        "anchor": "Exploration & Prototyping",
+        "tag": "exploration-&-prototyping"
     },
     {
-        "anchor": "Infrastructure Automation",
-        "tag": "infrastructure-automation"
+        "anchor": "FeatureEngineering",
+        "tag": "featureengineering"
     },
     {
-        "anchor": "LLM",
-        "tag": "llm"
+        "anchor": "General Programming",
+        "tag": "general-programming"
     },
     {
-        "anchor": "Matching",
-        "tag": "matching"
+        "anchor": "Git",
+        "tag": "git"
     },
     {
-        "anchor": "NLP",
-        "tag": "nlp"
+        "anchor": "Jupyter Notebook",
+        "tag": "jupyter-notebook"
     },
     {
-        "anchor": "Probability Theory",
-        "tag": "probability-theory"
+        "anchor": "Kaggle",
+        "tag": "kaggle"
     },
     {
-        "anchor": "Recommender Systems",
-        "tag": "recommender-systems"
+        "anchor": "Looker",
+        "tag": "looker"
     },
     {
-        "anchor": "Search DB",
-        "tag": "search-db"
+        "anchor": "Machine Learning",
+        "tag": "machine-learning"
     },
     {
-        "anchor": "Statistical Analysis",
-        "tag": "statistical-analysis"
+        "anchor": "Microsoft Azure",
+        "tag": "microsoft-azure"
     },
     {
-        "anchor": "Time Series Forecasting",
-        "tag": "time-series-forecasting"
+        "anchor": "Model Evaluation",
+        "tag": "model-evaluation"
+    },
+    {
+        "anchor": "Model Training and Evaluation",
+        "tag": "model-training-and-evaluation"
     }
 ]

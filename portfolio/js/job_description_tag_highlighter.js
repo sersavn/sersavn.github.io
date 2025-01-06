@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const allTagsPath = 'portfolio/data/all_tags.json';
     const familiarTagsPath = 'portfolio/data/familiar_tags.json';
 
-    // 4. Initialize Fuse.js Variable
+    // 4. Initialize Fuse.js Variable (Retained but Unused)
     let fuse;
 
     // 5. Fetch JSON Data
@@ -33,10 +33,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // Convert tags in familiarTags to lowercase for consistent matching
         familiarTags = familiarTagsData.map(tag => tag.tag.toLowerCase());
 
-        // 6. Initialize Fuse.js with Appropriate Settings
+        // 6. Initialize Fuse.js with Appropriate Settings (Retained but Unused)
         fuse = new Fuse(allTags, {
             keys: ['anchor'],
-            threshold: 0.4, // Adjust threshold as needed
+            threshold: 0.5, // Adjust threshold as needed
             includeScore: true,
             ignoreLocation: true,
             minMatchCharLength: 4 // Ensures minimum character length for matches
@@ -169,23 +169,27 @@ document.addEventListener("DOMContentLoaded", function() {
             const nGrams = extractNGrams(jobDescription, n);
             console.log(`Extracted ${n}-grams:`, nGrams);
 
-            // Create a temporary Fuse.js instance for the current word count
-            const tempFuse = new Fuse(tags, {
-                keys: ['anchor'],
+            // **Modified Matching Process Starts Here**
+
+            // Initialize Fuse.js with the extracted N-grams
+            const tempFuse = new Fuse(Array.from(nGrams), {
                 threshold: 0.4, // Adjust threshold as needed
                 includeScore: true,
                 ignoreLocation: true,
                 minMatchCharLength: 4 // Ensures minimum character length for matches
             });
 
-            nGrams.forEach(nGram => {
-                // Perform fuzzy search for each n-gram against tags of this word count
-                const results = tempFuse.search(nGram, { limit: 1 });
-                if (results.length > 0 && results[0].score <= 0.4) { // Adjust threshold as needed
-                    matchedAnchorsSet.add(results[0].item.anchor.toLowerCase());
-                    console.log(`Found Match: ${results[0].item.anchor} (Score: ${results[0].score}) for N-gram: "${nGram}"`);
+            // Iterate through each tag in the current word count group
+            tags.forEach(tag => {
+                console.log(`Searching for Tag: "${tag.anchor}"`);
+                const results = tempFuse.search(tag.anchor, { limit: 1 });
+                if (results.length > 0 && results[0].score <= 0.5) { // Adjust threshold as needed
+                    matchedAnchorsSet.add(tag.anchor.toLowerCase());
+                    console.log(`Found Match: ${tag.anchor} (Score: ${results[0].score})`);
                 }
             });
+
+            // **Modified Matching Process Ends Here**
         }
 
         const matchedAnchors = [...matchedAnchorsSet];
