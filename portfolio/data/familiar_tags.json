@@ -1,0 +1,122 @@
+[
+    {
+        "anchor": "A/B Testing",
+        "tag": "ab-testing"
+    },
+    {
+        "anchor": "Algorithms",
+        "tag": "algorithms"
+    },
+    {
+        "anchor": "BI Dashboards",
+        "tag": "bi-dashboards"
+    },
+    {
+        "anchor": "BI Tools",
+        "tag": "bi-tools"
+    },
+    {
+        "anchor": "Business Acumen",
+        "tag": "business-acumen"
+    },
+    {
+        "anchor": "Dashboards",
+        "tag": "dashboards"
+    },
+    {
+        "anchor": "Data Analysis",
+        "tag": "data-analysis"
+    },
+    {
+        "anchor": "Data Cleaning & Preprocessing",
+        "tag": "data-cleaning-&-preprocessing"
+    },
+    {
+        "anchor": "Data Manipulation",
+        "tag": "data-manipulation"
+    },
+    {
+        "anchor": "Data Modeling",
+        "tag": "data-modeling"
+    },
+    {
+        "anchor": "Data Processing",
+        "tag": "data-processing"
+    },
+    {
+        "anchor": "Data Quality",
+        "tag": "data-quality"
+    },
+    {
+        "anchor": "Data Structures",
+        "tag": "data-structures"
+    },
+    {
+        "anchor": "Data Visualization",
+        "tag": "data-visualization"
+    },
+    {
+        "anchor": "EDA",
+        "tag": "eda"
+    },
+    {
+        "anchor": "ETL",
+        "tag": "etl"
+    },
+    {
+        "anchor": "ETL Processes",
+        "tag": "etl-processes"
+    },
+    {
+        "anchor": "Excel",
+        "tag": "excel"
+    },
+    {
+        "anchor": "Experiment design",
+        "tag": "experiment-design"
+    },
+    {
+        "anchor": "Exploration & Prototyping",
+        "tag": "exploration-&-prototyping"
+    },
+    {
+        "anchor": "FeatureEngineering",
+        "tag": "featureengineering"
+    },
+    {
+        "anchor": "General Programming",
+        "tag": "general-programming"
+    },
+    {
+        "anchor": "Git",
+        "tag": "git"
+    },
+    {
+        "anchor": "Jupyter Notebook",
+        "tag": "jupyter-notebook"
+    },
+    {
+        "anchor": "Kaggle",
+        "tag": "kaggle"
+    },
+    {
+        "anchor": "Looker",
+        "tag": "looker"
+    },
+    {
+        "anchor": "Machine Learning",
+        "tag": "machine-learning"
+    },
+    {
+        "anchor": "Microsoft Azure",
+        "tag": "microsoft-azure"
+    },
+    {
+        "anchor": "Model Evaluation",
+        "tag": "model-evaluation"
+    },
+    {
+        "anchor": "Model Training and Evaluation",
+        "tag": "model-training-and-evaluation"
+    }
+]
