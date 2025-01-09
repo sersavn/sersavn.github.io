@@ -1,122 +1,1302 @@
 [
     {
-        "anchor": "A/B Testing",
+        "anchor": [
+            "A/B Testing",
+            "AB Testing",
+            "Split Testing",
+            "A/B"
+        ],
         "tag": "ab-testing"
     },
     {
-        "anchor": "Algorithms",
+        "anchor": [
+            "Access Management",
+            "Identity Management",
+            "Access Control"
+        ],
+        "tag": "access-management"
+    },
+    {
+        "anchor": [
+            "Airflow"
+        ],
+        "tag": "airflow"
+    },
+    {
+        "anchor": [
+            "Algorithms",
+            "Algo",
+            "Computational Methods"
+        ],
         "tag": "algorithms"
     },
     {
-        "anchor": "BI Dashboards",
+        "anchor": [
+            "Amazon Web Services",
+            "AWS"
+        ],
+        "tag": "amazon-web-services"
+    },
+    {
+        "anchor": [
+            "anaconda"
+        ],
+        "tag": "anaconda"
+    },
+    {
+        "anchor": [
+            "Analytical DB",
+            "OLAP"
+        ],
+        "tag": "analytical-db"
+    },
+    {
+        "anchor": [
+            "Ansible"
+        ],
+        "tag": "ansible"
+    },
+    {
+        "anchor": [
+            "Antifraud",
+            "Fraud",
+            "Fraud Detection"
+        ],
+        "tag": "antifraud"
+    },
+    {
+        "anchor": [
+            "Apache Atlas"
+        ],
+        "tag": "apache-atlas"
+    },
+    {
+        "anchor": [
+            "Apache Cassandra",
+            "Cassandra"
+        ],
+        "tag": "apache-cassandra"
+    },
+    {
+        "anchor": [
+            "Apache NiFi"
+        ],
+        "tag": "apache-nifi"
+    },
+    {
+        "anchor": [
+            "App Development Platform",
+            "App dev",
+            "Application development"
+        ],
+        "tag": "app-development-platform"
+    },
+    {
+        "anchor": [
+            "ArangoDB"
+        ],
+        "tag": "arangodb"
+    },
+    {
+        "anchor": [
+            "Automated ML",
+            "AutoML"
+        ],
+        "tag": "automated-ml"
+    },
+    {
+        "anchor": [
+            "Automation and Scripting",
+            "Workflow Automation",
+            "script development"
+        ],
+        "tag": "automation-and-scripting"
+    },
+    {
+        "anchor": [
+            "Bash/Shell",
+            "Shell Scripting",
+            "Command Line"
+        ],
+        "tag": "bashshell"
+    },
+    {
+        "anchor": [
+            "Benchmarks"
+        ],
+        "tag": "benchmarks"
+    },
+    {
+        "anchor": [
+            "BI Dashboards",
+            "Business Intelligence Dashboards",
+            "BI Visualization"
+        ],
         "tag": "bi-dashboards"
     },
     {
-        "anchor": "BI Tools",
+        "anchor": [
+            "BI Tools",
+            "Business Intelligence",
+            "BI"
+        ],
         "tag": "bi-tools"
     },
     {
-        "anchor": "Business Acumen",
+        "anchor": [
+            "BigQuery"
+        ],
+        "tag": "bigquery"
+    },
+    {
+        "anchor": [
+            "Business Acumen",
+            "Business Understanding",
+            "Strategic Thinking"
+        ],
         "tag": "business-acumen"
     },
     {
-        "anchor": "Dashboards",
+        "anchor": [
+            "Calculus",
+            "Differential Calculus",
+            "Integral Calculus"
+        ],
+        "tag": "calculus"
+    },
+    {
+        "anchor": [
+            "CatBoost"
+        ],
+        "tag": "catboost"
+    },
+    {
+        "anchor": [
+            "CI/CD",
+            "Continuous Integration",
+            "Continuous Deployment"
+        ],
+        "tag": "cicd"
+    },
+    {
+        "anchor": [
+            "Clickhouse"
+        ],
+        "tag": "clickhouse"
+    },
+    {
+        "anchor": [
+            "Cloud DB",
+            "Cloud Database",
+            "DbaaS"
+        ],
+        "tag": "cloud-db"
+    },
+    {
+        "anchor": [
+            "Cloud Engineering",
+            "Cloud Infra",
+            "Cloud DevOps",
+            "Cloud Solution"
+        ],
+        "tag": "cloud-engineering"
+    },
+    {
+        "anchor": [
+            "Cloud Security",
+            "Cloud protection",
+            "Secure Cloud"
+        ],
+        "tag": "cloud-security"
+    },
+    {
+        "anchor": [
+            "Cloud Services Management",
+            "Cloud services",
+            "Cloud Management"
+        ],
+        "tag": "cloud-services-management"
+    },
+    {
+        "anchor": [
+            "Cloud-Based ML Platforms",
+            "ML Cloud",
+            "AI Cloud"
+        ],
+        "tag": "cloud-based-ml-platforms"
+    },
+    {
+        "anchor": [
+            "CockroachDB"
+        ],
+        "tag": "cockroachdb"
+    },
+    {
+        "anchor": [
+            "Code Version Control",
+            "Versioning"
+        ],
+        "tag": "code-version-control"
+    },
+    {
+        "anchor": [
+            "Collibra"
+        ],
+        "tag": "collibra"
+    },
+    {
+        "anchor": [
+            "Computer Vision",
+            "CV",
+            "Image Recognition",
+            "Vision AI"
+        ],
+        "tag": "computer-vision"
+    },
+    {
+        "anchor": [
+            "Container Orchestration",
+            "Orchestrators"
+        ],
+        "tag": "container-orchestration"
+    },
+    {
+        "anchor": [
+            "Containerization",
+            "Containers",
+            "Application Packaging"
+        ],
+        "tag": "containerization"
+    },
+    {
+        "anchor": [
+            "d3.js"
+        ],
+        "tag": "d3.js"
+    },
+    {
+        "anchor": [
+            "dash.plotly"
+        ],
+        "tag": "dash.plotly"
+    },
+    {
+        "anchor": [
+            "Dashboards",
+            "BI Dashboards",
+            "Visualization Dashboards",
+            "Dashboarding"
+        ],
         "tag": "dashboards"
     },
     {
-        "anchor": "Data Analysis",
+        "anchor": [
+            "Data Analysis",
+            "Data Insigths",
+            "Analytical Techniques"
+        ],
         "tag": "data-analysis"
     },
     {
-        "anchor": "Data Cleaning & Preprocessing",
+        "anchor": [
+            "Data Cleaning & Preprocessing",
+            "Data Prep",
+            "Data Clean",
+            "Cleaning Data"
+        ],
         "tag": "data-cleaning-&-preprocessing"
     },
     {
-        "anchor": "Data Manipulation",
+        "anchor": [
+            "Data Engineering",
+            "DE",
+            "Data Engineer"
+        ],
+        "tag": "data-engineering"
+    },
+    {
+        "anchor": [
+            "Data Governance & Security",
+            "Data Privacy",
+            "Security Standards",
+            "Info security",
+            "Infosec",
+            "Governance"
+        ],
+        "tag": "data-governance-&-security"
+    },
+    {
+        "anchor": [
+            "Data Lineage",
+            "Data Provenance",
+            "Data Traceability",
+            "Lineage tracking"
+        ],
+        "tag": "data-lineage"
+    },
+    {
+        "anchor": [
+            "Data Manipulation",
+            "Data Wrangling",
+            "Data Transformation"
+        ],
         "tag": "data-manipulation"
     },
     {
-        "anchor": "Data Modeling",
+        "anchor": [
+            "Data Modeling",
+            "Model Data"
+        ],
         "tag": "data-modeling"
     },
     {
-        "anchor": "Data Processing",
+        "anchor": [
+            "Data Pipelines",
+            "Pipelines",
+            "Data Workflow"
+        ],
+        "tag": "data-pipelines"
+    },
+    {
+        "anchor": [
+            "Data Privacy",
+            "Privacy Compliance",
+            "Data Protection"
+        ],
+        "tag": "data-privacy"
+    },
+    {
+        "anchor": [
+            "Data Processing",
+            "Process Data"
+        ],
         "tag": "data-processing"
     },
     {
-        "anchor": "Data Quality",
+        "anchor": [
+            "Data Quality",
+            "Data Integrity",
+            "Data accuracy"
+        ],
         "tag": "data-quality"
     },
     {
-        "anchor": "Data Structures",
+        "anchor": [
+            "Data Quality Management",
+            "Data Quality"
+        ],
+        "tag": "data-quality-management"
+    },
+    {
+        "anchor": [
+            "Data Security",
+            "Information Security",
+            "Securing Data"
+        ],
+        "tag": "data-security"
+    },
+    {
+        "anchor": [
+            "Data Storage"
+        ],
+        "tag": "data-storage"
+    },
+    {
+        "anchor": [
+            "Data Structures",
+            "DS",
+            "Data Organization"
+        ],
         "tag": "data-structures"
     },
     {
-        "anchor": "Data Visualization",
+        "anchor": [
+            "Data Version Control",
+            "Versioning Data"
+        ],
+        "tag": "data-version-control"
+    },
+    {
+        "anchor": [
+            "Data Visualization",
+            "Visualization",
+            "Charts",
+            "Graphs",
+            "Data Viz"
+        ],
         "tag": "data-visualization"
     },
     {
-        "anchor": "EDA",
+        "anchor": [
+            "Data Warehousing",
+            "Data Storag",
+            "DW",
+            "Data Warehous"
+        ],
+        "tag": "data-warehousing"
+    },
+    {
+        "anchor": [
+            "Database Management",
+            "DB Administration",
+            "DBMS"
+        ],
+        "tag": "database-management"
+    },
+    {
+        "anchor": [
+            "Databases",
+            "DB",
+            "Data Storage",
+            "Database System"
+        ],
+        "tag": "databases"
+    },
+    {
+        "anchor": [
+            "DataRobot"
+        ],
+        "tag": "datarobot"
+    },
+    {
+        "anchor": [
+            "Deep Learning",
+            "DL",
+            "NN",
+            "Neural Networks"
+        ],
+        "tag": "deep-learning"
+    },
+    {
+        "anchor": [
+            "Dependency Management",
+            "Package Management"
+        ],
+        "tag": "dependency-management"
+    },
+    {
+        "anchor": [
+            "Distributed SQL DB",
+            "Distributed DB",
+            "Distributed Database"
+        ],
+        "tag": "distributed-sql-db"
+    },
+    {
+        "anchor": [
+            "Distributed Training",
+            "Distributed ML",
+            "Parallel Training"
+        ],
+        "tag": "distributed-training"
+    },
+    {
+        "anchor": [
+            "Docker",
+            "Containerization"
+        ],
+        "tag": "docker"
+    },
+    {
+        "anchor": [
+            "dvc",
+            "Data Version Control"
+        ],
+        "tag": "dvc"
+    },
+    {
+        "anchor": [
+            "Dynamic Pricing",
+            "Price Optimization",
+            "Pricing Strategies"
+        ],
+        "tag": "dynamic-pricing"
+    },
+    {
+        "anchor": [
+            "EDA",
+            "Exploratory Data Analysis"
+        ],
         "tag": "eda"
     },
     {
-        "anchor": "ETL",
+        "anchor": [
+            "Elasticsearch"
+        ],
+        "tag": "elasticsearch"
+    },
+    {
+        "anchor": [
+            "ETL",
+            "Extract Transform Load",
+            "ETL pipelines"
+        ],
         "tag": "etl"
     },
     {
-        "anchor": "ETL Processes",
+        "anchor": [
+            "ETL Processes",
+            "Extract Transform Load"
+        ],
         "tag": "etl-processes"
     },
     {
-        "anchor": "Excel",
+        "anchor": [
+            "Excel"
+        ],
         "tag": "excel"
     },
     {
-        "anchor": "Experiment design",
+        "anchor": [
+            "Experiment design",
+            "Experiments",
+            "Experiment setup"
+        ],
         "tag": "experiment-design"
     },
     {
-        "anchor": "Exploration & Prototyping",
+        "anchor": [
+            "Exploration & Prototyping",
+            "Exploratory Analysis",
+            "Prototyping"
+        ],
         "tag": "exploration-&-prototyping"
     },
     {
-        "anchor": "FeatureEngineering",
+        "anchor": [
+            "fbprophet",
+            "Prophet"
+        ],
+        "tag": "fbprophet"
+    },
+    {
+        "anchor": [
+            "FeatureEngineering",
+            "Feature Extraction",
+            "Feature Selection"
+        ],
         "tag": "featureengineering"
     },
     {
-        "anchor": "General Programming",
+        "anchor": [
+            "Firebase"
+        ],
+        "tag": "firebase"
+    },
+    {
+        "anchor": [
+            "General Cloud Services",
+            "Cloud Infrastructure"
+        ],
+        "tag": "general-cloud-services"
+    },
+    {
+        "anchor": [
+            "General Programming",
+            "Coding",
+            "Scripting"
+        ],
         "tag": "general-programming"
     },
     {
-        "anchor": "Git",
+        "anchor": [
+            "Git"
+        ],
         "tag": "git"
     },
     {
-        "anchor": "Jupyter Notebook",
+        "anchor": [
+            "Google Cloud",
+            "GCP"
+        ],
+        "tag": "google-cloud"
+    },
+    {
+        "anchor": [
+            "Grafana"
+        ],
+        "tag": "grafana"
+    },
+    {
+        "anchor": [
+            "Graph DB",
+            "Graph Database",
+            "Network Database"
+        ],
+        "tag": "graph-db"
+    },
+    {
+        "anchor": [
+            "H2O AutoML",
+            "h2o.ai"
+        ],
+        "tag": "h2o-automl"
+    },
+    {
+        "anchor": [
+            "Hadoop",
+            "HDFS"
+        ],
+        "tag": "hadoop"
+    },
+    {
+        "anchor": [
+            "HTML/CSS",
+            "Web Development"
+        ],
+        "tag": "htmlcss"
+    },
+    {
+        "anchor": [
+            "Infrastructure Automation",
+            "Infra Automat",
+            "iac",
+            "Infrastructure as Code"
+        ],
+        "tag": "infrastructure-automation"
+    },
+    {
+        "anchor": [
+            "InnfluxDB"
+        ],
+        "tag": "innfluxdb"
+    },
+    {
+        "anchor": [
+            "Interactive Plotting",
+            "Interactive Dashboards",
+            "Web Dashboards"
+        ],
+        "tag": "interactive-plotting"
+    },
+    {
+        "anchor": [
+            "Jupyter Notebook"
+        ],
         "tag": "jupyter-notebook"
     },
     {
-        "anchor": "Kaggle",
+        "anchor": [
+            "Kafka"
+        ],
+        "tag": "kafka"
+    },
+    {
+        "anchor": [
+            "Kaggle",
+            "Competitions",
+            "Data Competitions",
+            "ML Competitions"
+        ],
         "tag": "kaggle"
     },
     {
-        "anchor": "Looker",
+        "anchor": [
+            "Keras"
+        ],
+        "tag": "keras"
+    },
+    {
+        "anchor": [
+            "Kubeflow"
+        ],
+        "tag": "kubeflow"
+    },
+    {
+        "anchor": [
+            "Kubernetes",
+            "K8s"
+        ],
+        "tag": "kubernetes"
+    },
+    {
+        "anchor": [
+            "Leetcode",
+            "Competitions",
+            "Coding Practice",
+            "Competitive Programming"
+        ],
+        "tag": "leetcode"
+    },
+    {
+        "anchor": [
+            "Lifecycle Management",
+            "Project lifecycle",
+            "development lifecycle"
+        ],
+        "tag": "lifecycle-management"
+    },
+    {
+        "anchor": [
+            "LightGBM"
+        ],
+        "tag": "lightgbm"
+    },
+    {
+        "anchor": [
+            "Linear Algebra",
+            "Algebra",
+            "Matrices",
+            "Matrix Operations"
+        ],
+        "tag": "linear-algebra"
+    },
+    {
+        "anchor": [
+            "LLM",
+            "Large Language Models",
+            "Foundation Models"
+        ],
+        "tag": "llm"
+    },
+    {
+        "anchor": [
+            "Looker"
+        ],
         "tag": "looker"
     },
     {
-        "anchor": "Machine Learning",
+        "anchor": [
+            "Luigi"
+        ],
+        "tag": "luigi"
+    },
+    {
+        "anchor": [
+            "Machine Learning",
+            "ML",
+            "AI",
+            "Predictive Modelling",
+            "Predictive Models"
+        ],
         "tag": "machine-learning"
     },
     {
-        "anchor": "Microsoft Azure",
+        "anchor": [
+            "Matching",
+            "Pattern Matching",
+            "Entity Matching"
+        ],
+        "tag": "matching"
+    },
+    {
+        "anchor": [
+            "Math",
+            "Mathematics"
+        ],
+        "tag": "math"
+    },
+    {
+        "anchor": [
+            "matplotlib"
+        ],
+        "tag": "matplotlib"
+    },
+    {
+        "anchor": [
+            "Metabase"
+        ],
+        "tag": "metabase"
+    },
+    {
+        "anchor": [
+            "Microsoft Azure",
+            "Azure"
+        ],
         "tag": "microsoft-azure"
     },
     {
-        "anchor": "Model Evaluation",
+        "anchor": [
+            "Mlflow"
+        ],
+        "tag": "mlflow"
+    },
+    {
+        "anchor": [
+            "MLOps",
+            "Machine Learning Operations"
+        ],
+        "tag": "mlops"
+    },
+    {
+        "anchor": [
+            "Model Deployment",
+            "Model Serving"
+        ],
+        "tag": "model-deployment"
+    },
+    {
+        "anchor": [
+            "Model Evaluation",
+            "Evaluation Metrics",
+            "Model Assessment"
+        ],
         "tag": "model-evaluation"
     },
     {
-        "anchor": "Model Training and Evaluation",
+        "anchor": [
+            "Model Optimization",
+            "Model Tuning",
+            "Optimization"
+        ],
+        "tag": "model-optimization"
+    },
+    {
+        "anchor": [
+            "Model Serving",
+            "Model Deployment",
+            "Serving Models"
+        ],
+        "tag": "model-serving"
+    },
+    {
+        "anchor": [
+            "Model Training"
+        ],
+        "tag": "model-training"
+    },
+    {
+        "anchor": [
+            "Model Training and Deployment"
+        ],
+        "tag": "model-training-and-deployment"
+    },
+    {
+        "anchor": [
+            "Model Training and Evaluation"
+        ],
         "tag": "model-training-and-evaluation"
+    },
+    {
+        "anchor": [
+            "Model Visualization Toolkit"
+        ],
+        "tag": "model-visualization-toolkit"
+    },
+    {
+        "anchor": [
+            "MongoDB"
+        ],
+        "tag": "mongodb"
+    },
+    {
+        "anchor": [
+            "Monitoring & Logging",
+            "System monitoring",
+            "Log analysis"
+        ],
+        "tag": "monitoring-&-logging"
+    },
+    {
+        "anchor": [
+            "Monitoring and Analytics",
+            "Analytics Tools",
+            "Monitoring Tools"
+        ],
+        "tag": "monitoring-and-analytics"
+    },
+    {
+        "anchor": [
+            "MXNet"
+        ],
+        "tag": "mxnet"
+    },
+    {
+        "anchor": [
+            "MySQL"
+        ],
+        "tag": "mysql"
+    },
+    {
+        "anchor": [
+            "Neo4J"
+        ],
+        "tag": "neo4j"
+    },
+    {
+        "anchor": [
+            "NLP",
+            "Natural Language Processing"
+        ],
+        "tag": "nlp"
+    },
+    {
+        "anchor": [
+            "NoSQL DB",
+            "Key-Value Store"
+        ],
+        "tag": "nosql-db"
+    },
+    {
+        "anchor": [
+            "Okta"
+        ],
+        "tag": "okta"
+    },
+    {
+        "anchor": [
+            "OpenCV"
+        ],
+        "tag": "opencv"
+    },
+    {
+        "anchor": [
+            "Pandas"
+        ],
+        "tag": "pandas"
+    },
+    {
+        "anchor": [
+            "pip"
+        ],
+        "tag": "pip"
+    },
+    {
+        "anchor": [
+            "Pipeline Orchestration"
+        ],
+        "tag": "pipeline-orchestration"
+    },
+    {
+        "anchor": [
+            "poetry"
+        ],
+        "tag": "poetry"
+    },
+    {
+        "anchor": [
+            "PostgreSQL",
+            "Postgres",
+            "PSQL"
+        ],
+        "tag": "postgresql"
+    },
+    {
+        "anchor": [
+            "Power BI",
+            "Microsoft BI"
+        ],
+        "tag": "power-bi"
+    },
+    {
+        "anchor": [
+            "Probability Theory",
+            "Probability",
+            "Stochastic Processes"
+        ],
+        "tag": "probability-theory"
+    },
+    {
+        "anchor": [
+            "Product Development",
+            "Prod Dev",
+            "Agile"
+        ],
+        "tag": "product-development"
+    },
+    {
+        "anchor": [
+            "Product Metrics",
+            "Metrics",
+            "Product KPIs"
+        ],
+        "tag": "product-metrics"
+    },
+    {
+        "anchor": [
+            "Programming and scripting languages",
+            "Shell Scripting",
+            "Scripting"
+        ],
+        "tag": "programming-and-scripting-languages"
+    },
+    {
+        "anchor": [
+            "Prometheus"
+        ],
+        "tag": "prometheus"
+    },
+    {
+        "anchor": [
+            "PySpark",
+            "Apache Spark"
+        ],
+        "tag": "pyspark"
+    },
+    {
+        "anchor": [
+            "Python"
+        ],
+        "tag": "python"
+    },
+    {
+        "anchor": [
+            "Pytorch"
+        ],
+        "tag": "pytorch"
+    },
+    {
+        "anchor": [
+            "Recommender Systems",
+            "RecSys",
+            "Recommendation Engines"
+        ],
+        "tag": "recommender-systems"
+    },
+    {
+        "anchor": [
+            "Redash"
+        ],
+        "tag": "redash"
+    },
+    {
+        "anchor": [
+            "Redis"
+        ],
+        "tag": "redis"
+    },
+    {
+        "anchor": [
+            "Redshift"
+        ],
+        "tag": "redshift"
+    },
+    {
+        "anchor": [
+            "Relational DB",
+            "RDBMS"
+        ],
+        "tag": "relational-db"
+    },
+    {
+        "anchor": [
+            "Reporting",
+            "Reports",
+            "Analytics Reporting"
+        ],
+        "tag": "reporting"
+    },
+    {
+        "anchor": [
+            "SageMaker"
+        ],
+        "tag": "sagemaker"
+    },
+    {
+        "anchor": [
+            "Scikit-learn",
+            "Sklearn"
+        ],
+        "tag": "scikit-learn"
+    },
+    {
+        "anchor": [
+            "seaborn"
+        ],
+        "tag": "seaborn"
+    },
+    {
+        "anchor": [
+            "Search DB"
+        ],
+        "tag": "search-db"
+    },
+    {
+        "anchor": [
+            "Security and Compliance",
+            "Security Standarts",
+            "Compliance Checks"
+        ],
+        "tag": "security-and-compliance"
+    },
+    {
+        "anchor": [
+            "Security Monitoring",
+            "Monitoring Security",
+            "Threat Detection",
+            "Threat monitoring"
+        ],
+        "tag": "security-monitoring"
+    },
+    {
+        "anchor": [
+            "Snowflake"
+        ],
+        "tag": "snowflake"
+    },
+    {
+        "anchor": [
+            "Software Engineering",
+            "Coding",
+            "Programming",
+            "Software Dev",
+            "Programming",
+            "Scripting"
+        ],
+        "tag": "software-engineering"
+    },
+    {
+        "anchor": [
+            "Spark",
+            "Apache Spark"
+        ],
+        "tag": "spark"
+    },
+    {
+        "anchor": [
+            "Splunk"
+        ],
+        "tag": "splunk"
+    },
+    {
+        "anchor": [
+            "SQL",
+            "Structured Query Language"
+        ],
+        "tag": "sql"
+    },
+    {
+        "anchor": [
+            "SQL Server",
+            "Microsoft SQL",
+            "MSSQL"
+        ],
+        "tag": "sql-server"
+    },
+    {
+        "anchor": [
+            "SQLite"
+        ],
+        "tag": "sqlite"
+    },
+    {
+        "anchor": [
+            "Static Plotting",
+            "Static Charts"
+        ],
+        "tag": "static-plotting"
+    },
+    {
+        "anchor": [
+            "Statistical Analysis",
+            "Data Analysis",
+            "Statistical"
+        ],
+        "tag": "statistical-analysis"
+    },
+    {
+        "anchor": [
+            "Statistics",
+            "Stats",
+            "Statistical Methods"
+        ],
+        "tag": "statistics"
+    },
+    {
+        "anchor": [
+            "statsmodels"
+        ],
+        "tag": "statsmodels"
+    },
+    {
+        "anchor": [
+            "Tableau"
+        ],
+        "tag": "tableau"
+    },
+    {
+        "anchor": [
+            "Talend"
+        ],
+        "tag": "talend"
+    },
+    {
+        "anchor": [
+            "Tensorboard"
+        ],
+        "tag": "tensorboard"
+    },
+    {
+        "anchor": [
+            "Tensorflow",
+            "TF"
+        ],
+        "tag": "tensorflow"
+    },
+    {
+        "anchor": [
+            "Terraform"
+        ],
+        "tag": "terraform"
+    },
+    {
+        "anchor": [
+            "TF Serving"
+        ],
+        "tag": "tf-serving"
+    },
+    {
+        "anchor": [
+            "Time Series DB",
+            "TSDB",
+            "Time-Based Data Store"
+        ],
+        "tag": "time-series-db"
+    },
+    {
+        "anchor": [
+            "Time Series Forecasting",
+            "Time Series",
+            "TS",
+            "Forecasting"
+        ],
+        "tag": "time-series-forecasting"
+    },
+    {
+        "anchor": [
+            "TimescaleDB"
+        ],
+        "tag": "timescaledb"
+    },
+    {
+        "anchor": [
+            "TorchServe"
+        ],
+        "tag": "torchserve"
+    },
+    {
+        "anchor": [
+            "Vault by HashiCorp",
+            "Vault",
+            "HashiCorp Vault"
+        ],
+        "tag": "vault-by-hashicorp"
+    },
+    {
+        "anchor": [
+            "Vertex AI"
+        ],
+        "tag": "vertex-ai"
+    },
+    {
+        "anchor": [
+            "Web Development",
+            "Frontend Development",
+            "Web Programming",
+            "Frontend"
+        ],
+        "tag": "web-development"
+    },
+    {
+        "anchor": [
+            "Workflow Management"
+        ],
+        "tag": "workflow-management"
+    },
+    {
+        "anchor": [
+            "XGBoost"
+        ],
+        "tag": "xgboost"
     }
 ]

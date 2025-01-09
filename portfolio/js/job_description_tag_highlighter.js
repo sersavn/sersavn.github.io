@@ -86,6 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // Select the <li> element with the corresponding data-tag
             const tagElement = document.querySelector(`.tagcloud-tag[data-tag="${tagName}"]`);
             if (tagElement) {
+                tagElement.classList.add('visible'); // GPT HELP! That line makes highlighting for matched tags obsolete!
                 if (familiarTags.includes(tagName)) {
                     tagElement.classList.add('known');
                     console.log(`Tag "${tagName}" marked as 'known'.`);
@@ -104,6 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!isMatched) {
                 const tagElement = document.querySelector(`.tagcloud-tag[data-tag="${familiarTag}"]`);
                 if (tagElement) {
+                    tagElement.classList.add('visible');
                     tagElement.classList.add('extra');
                     console.log(`Tag "${familiarTag}" marked as 'extra'.`);
                 }

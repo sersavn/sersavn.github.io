@@ -260,28 +260,37 @@ body::after {
                  0 0 1rem rgb(var(--tagcloud-bg-color-shadow-rgb));
 }
 
-.tagcloud-tag, 
-.tagcloud-tag * {
+ul.tagcloud-tags li.tagcloud-tag {
     /* Typography */
     color: var(--tag-color-default);
     /* Visual Styles */
-    transition: color 2s ease-in-out, background-color 2s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 2s ease-in-out, color 2s ease-in-out, background-color 2s ease-in-out;
 }
 
-.tagcloud-tag.known, 
-.tagcloud-tag.known * {
+ul.tagcloud-tags li.tagcloud-tag.visible {
+    /* Typography */
+    color: var(--tag-color-default);
+    /* Visual Styles */
+    visibility: visible;
+    opacity: 1;
+    /*transition: color 2s ease-in-out, background-color 2s ease-in-out;*/
+}
+
+/* Show only the tags that have the 'visible' class */
+
+ul.tagcloud-tags li.tagcloud-tag.visible.known {
     /* Typography */
     color: var(--tag-color-known);
 }
 
-.tagcloud-tag.unknown, 
-.tagcloud-tag.unknown * {
+ul.tagcloud-tags li.tagcloud-tag.visible.unknown {
     /* Typography */
     color: var(--tag-color-unknown);
 }
 
-.tagcloud-tag.extra, 
-.tagcloud-tag.extra * {
+ul.tagcloud-tags li.tagcloud-tag.visible.extra {
     /* Typography */
     color: var(--tag-color-extra);
 }
