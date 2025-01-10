@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     let familiarTags = [];
 
     // 3. Paths to JSON Files
-    const allTagsPath = 'portfolio/data/all_tags.json';
-    const familiarTagsPath = 'portfolio/data/familiar_tags.json';
+    const allTagsPath = 'portfolio/data/tags/all_tags.json';
+    const familiarTagsPath = 'portfolio/data/tags/familiar_tags.json';
 
     // 4. Initialize Fuse.js Variable (Retained but Unused)
     let fuse;
@@ -27,29 +27,20 @@ document.addEventListener("DOMContentLoaded", function() {
         // Convert all anchors in allTags to lowercase for consistent matching
         allTags = allTagsData.map(tag => ({
             ...tag,
-            anchor: tag.anchor.toLowerCase()
+            anchor: tag.anchor.map(a => a.toLowerCase())
         }));
 
         // Convert tags in familiarTags to lowercase for consistent matching
         familiarTags = familiarTagsData.map(tag => tag.tag.toLowerCase());
 
-        // 6. Initialize Fuse.js with Appropriate Settings (Retained but Unused)
-        fuse = new Fuse(allTags, {
-            keys: ['anchor'],
-            threshold: 0.5, // Adjust threshold as needed
-            includeScore: true,
-            ignoreLocation: true,
-            minMatchCharLength: 4 // Ensures minimum character length for matches
-        });
-
         console.log('All Tags Loaded:', allTags);
         console.log('Familiar Tags Loaded:', familiarTags);
 
-        // 7. Enable the Textarea After Data is Loaded
+        // 6. Enable the Textarea After Data is Loaded
         textarea.disabled = false;
     }).catch(error => console.error('Error loading JSON files:', error));
 
-    // 8. Debounce Function to Limit the Rate of Function Execution
+    // 7. Debounce Function to Limit the Rate of Function Execution
     function debounce(func, wait) {
         let timeout;
         return function(...args) {
@@ -62,18 +53,16 @@ document.addEventListener("DOMContentLoaded", function() {
         };
     }
 
-    /**
-     * Function to Reset All Tag Classes
-     */
+    // 8. Function to Reset All Tag Classes
     function resetTags() {
         document.querySelectorAll('.tagcloud-tag').forEach(tag => {
             tag.classList.remove('known', 'unknown', 'extra'); // Remove all classes
-            console.log(`Resetting tag: ${tag.dataset.tag}`);
+            // console.log(`Resetting tag: ${tag.dataset.tag}`);
         });
     }
 
     /**
-     * Function to Highlight Tags Based on Matches
+     * 9. Function to Highlight Tags Based on Matches
      * @param {Array} matchedTags - Array of matched tag objects from Fuse.js
      */
     function highlightTags(matchedTags) {
@@ -81,18 +70,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
         matchedTags.forEach(tagObj => {
             const tagName = tagObj.tag.toLowerCase();
-            const anchorLower = tagObj.anchor.toLowerCase();
+            // const anchorLower = tagObj.anchor.toLowerCase(); removed for the upd
 
             // Select the <li> element with the corresponding data-tag
             const tagElement = document.querySelector(`.tagcloud-tag[data-tag="${tagName}"]`);
             if (tagElement) {
-                tagElement.classList.add('visible'); // GPT HELP! That line makes highlighting for matched tags obsolete!
+                tagElement.classList.add('visible');
                 if (familiarTags.includes(tagName)) {
                     tagElement.classList.add('known');
-                    console.log(`Tag "${tagName}" marked as 'known'.`);
+                    // console.log(`Tag "${tagName}" marked as 'known'.`);
                 } else {
                     tagElement.classList.add('unknown');
-                    console.log(`Tag "${tagName}" marked as 'unknown'.`);
+                    // console.log(`Tag "${tagName}" marked as 'unknown'.`);
                 }
             } else {
                 console.warn(`Tag element not found for tag: ${tagName}`);
@@ -107,21 +96,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (tagElement) {
                     tagElement.classList.add('visible');
                     tagElement.classList.add('extra');
-                    console.log(`Tag "${familiarTag}" marked as 'extra'.`);
                 }
             }
         });
     }
 
     /**
-     * Function to Extract N-grams from Job Description Based on Tag Anchor Word Count
+     * 10. Function to Extract N-grams from Job Description Based on Tag Anchor Word Count
      * @param {string} text - The job description text
      * @param {number} n - Number of words in the tag's anchor
      * @returns {Set} - Set of unique n-grams
      */
     function extractNGrams(text, n) {
         text = text.replace(/\*\*/g, "");
-        const words = text.split(/\s+/).filter(word => word.length > 2);
+        const words = text.split(/\s+/).filter(word => word.length > 1);
         const nGrams = new Set();
 
         for (let i = 0; i <= words.length - n; i++) {
@@ -134,29 +122,29 @@ document.addEventListener("DOMContentLoaded", function() {
         return nGrams;
     }
 
-    /**
-     * Main Function to Handle Input and Perform Tag Highlighting
-     */
+    // 11. Main Function to Handle Input and Perform Tag Highlighting
     function handleInput() {
         let jobDescription = textarea.value.toLowerCase().trim();
+        jobDescription = jobDescription.replace('-', ' ')
         console.log('Processing Job Description:', jobDescription);
-
-        if (!jobDescription || jobDescription.length < 3) { // Minimum length to avoid overmatching
-            console.log('Job description is too short or empty, resetting tags...');
-            resetTags();
-            return;
-        }
 
         resetTags();
 
-        // For performance, create a map of word count to tags
+        // Create a map of word count to tags
         const tagsByWordCount = {};
         allTags.forEach(tag => {
-            const wordCount = tag.anchor.split(' ').length;
-            if (!tagsByWordCount[wordCount]) {
-                tagsByWordCount[wordCount] = [];
-            }
-            tagsByWordCount[wordCount].push(tag);
+            const wordCounts = tag.anchor.map(a => a.split(' ').length);
+            tag.anchor.forEach(anchorOption => {
+                const wordCount = anchorOption.split(' ').length;
+                if (!tagsByWordCount[wordCount]) {
+                    tagsByWordCount[wordCount] = [];
+                }
+                // Push an object containing the tag and its specific anchor option
+                tagsByWordCount[wordCount].push({
+                    tag: tag.tag,
+                    anchorOption: anchorOption
+                });
+            });
         });
 
         console.log('Tags Organized by Word Count:', tagsByWordCount);
@@ -164,41 +152,48 @@ document.addEventListener("DOMContentLoaded", function() {
         const matchedAnchorsSet = new Set();
 
         // Iterate through tags grouped by word count
-        for (const [wordCount, tags] of Object.entries(tagsByWordCount)) {
-            const n = parseInt(wordCount);
-            if (isNaN(n) || n < 1) continue; // Skip invalid entries
+        for (const [wordCountStr, tagAnchors] of Object.entries(tagsByWordCount)) {
+            const wordCount = parseInt(wordCountStr);
+            if (isNaN(wordCount) || wordCount < 1) continue; // Skip invalid entries
 
-            const nGrams = extractNGrams(jobDescription, n);
-            console.log(`Extracted ${n}-grams:`, nGrams);
+            const nGrams = extractNGrams(jobDescription, wordCount);
+            console.log(`Extracted ${wordCount}-grams:`, nGrams);
 
-            // **Modified Matching Process Starts Here**
+            if (wordCount >= 2) {
+                // Create a temporary Fuse.js instance for fuzzy matching on multi-word anchors
+                const tempFuse = new Fuse(Array.from(nGrams), {
+                    threshold: 0.2, // Adjust threshold as needed
+                    includeScore: true,
+                    ignoreLocation: true,
+                    minMatchCharLength: 1 // Prevents matching anchors with fewer than 1 characters
+                });
 
-            // Initialize Fuse.js with the extracted N-grams
-            const tempFuse = new Fuse(Array.from(nGrams), {
-                threshold: 0.4, // Adjust threshold as needed
-                includeScore: true,
-                ignoreLocation: true,
-                minMatchCharLength: 4 // Ensures minimum character length for matches
-            });
-
-            // Iterate through each tag in the current word count group
-            tags.forEach(tag => {
-                console.log(`Searching for Tag: "${tag.anchor}"`);
-                const results = tempFuse.search(tag.anchor, { limit: 1 });
-                if (results.length > 0 && results[0].score <= 0.5) { // Adjust threshold as needed
-                    matchedAnchorsSet.add(tag.anchor.toLowerCase());
-                    console.log(`Found Match: ${tag.anchor} (Score: ${results[0].score})`);
-                }
-            });
-
-            // **Modified Matching Process Ends Here**
+                // Iterate through each tag-anchor pair in the current word count group
+                tagAnchors.forEach(({ tag, anchorOption }) => {
+                    const results = tempFuse.search(anchorOption, { limit: 1 });
+                    if (results.length > 0 && results[0].score <= 0.2) { // Adjust threshold as needed
+                        matchedAnchorsSet.add(tag.toLowerCase()); // Add the tag's main identifier
+                        console.log(`Found Match: ${tag} (Score: ${results[0].score}) for Anchor: "${anchorOption}", JobDescr input: ${results[0].item}`);
+                    }
+                });
+            } else if (wordCount === 1) {
+                // Perform exact matching for single-word anchors
+                tagAnchors.forEach(({ tag, anchorOption }) => {
+                    // Use a regex to match whole words only
+                    const regex = new RegExp(`\\b${anchorOption}\\b`, 'i');
+                    if (regex.test(jobDescription)) {
+                        matchedAnchorsSet.add(tag.toLowerCase());
+                        console.log(`Found Exact Match: ${tag} for Anchor: "${anchorOption}"`);
+                    }
+                });
+            }
         }
 
         const matchedAnchors = [...matchedAnchorsSet];
         console.log('Matched Anchors:', matchedAnchors);
 
         // Extract matched tags based on matched anchors
-        const matchedTags = allTags.filter(tag => matchedAnchors.includes(tag.anchor.toLowerCase()));
+        const matchedTags = allTags.filter(tag => matchedAnchors.includes(tag.tag.toLowerCase()));
         console.log('Matched Tags:', matchedTags);
 
         if (matchedTags.length > 0) {
@@ -209,6 +204,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Add input event listener with debouncing
-    textarea.addEventListener('input', debounce(handleInput, 500));
+    textarea.addEventListener('input', debounce(handleInput, 1000));
 });
 

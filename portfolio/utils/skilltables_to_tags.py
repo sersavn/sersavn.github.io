@@ -23,10 +23,11 @@ if len(sys.argv) != 2:
 file_path = sys.argv[1]
 
 # Columns for the table
-columns = ["Tag", "Included", "Aliases_Tag"]
+columns = ["Tag", "Aliases_Tag", "Excluded", "Visible"]
 
 # Read the CSV file
 data = pd.read_csv(file_path, usecols=columns)
+data = data[data['Excluded']!=1]
 
 # Generate HTML lines and JSON mapping
 html_lines = []
@@ -34,13 +35,13 @@ tags_mapping = []
 html_lines.append(f'<ul class="tagcloud-tags" style="--num-elements: {len(data)}">')
 for index, row in data.iterrows():
     tag = row['Tag'].strip()
-    included = row['Included']
+    visible = row['Visible']
     aliases = row['Aliases_Tag'].strip().strip('[]').split(',') if pd.notna(row['Aliases_Tag']) else []
     aliases = [alias.strip() for alias in aliases]  # Strip leading/trailing spaces from each alias
     aliases.insert(0, tag)  # Add the primary tag as the first alias
 
     clean_tag = tag.replace("/", "").replace(" ", "-").lower()
-    visibility_class = 'visible' if included == 1 else ''
+    visibility_class = 'visible' if visible == 1 else ''
     line = f'  <li class="tagcloud-tag {visibility_class}" style="--index: {index+1}" data-tag="{clean_tag}"><div><a href="/concept-map/?tag={clean_tag}">{tag}</a></div></li>'
     html_lines.append(line)
     tags_mapping.append({"anchor": aliases, "tag": clean_tag})
@@ -54,11 +55,11 @@ with open(output_file, "w", encoding="utf-8") as f:
 print(f"HTML content generated and saved to {output_file}")
 
 # Save included tags to JSON files
-json_output_file = "../data/all_tags_upd.json"
+json_output_file = "../data/tags/all_tags.json"
 with open(json_output_file, "w", encoding="utf-8") as json_file:
     json.dump(tags_mapping, json_file, indent=4)
     
-json_output_file = "../data/familiar_tags_draft_upd.json"
+json_output_file = "../data/tags/familiar_tags_draft.json"
 with open(json_output_file, "w", encoding="utf-8") as json_file:
     json.dump(tags_mapping, json_file, indent=4)
 

@@ -535,13 +535,6 @@
     },
     {
         "anchor": [
-            "ETL Processes",
-            "Extract Transform Load"
-        ],
-        "tag": "etl-processes"
-    },
-    {
-        "anchor": [
             "Excel"
         ],
         "tag": "excel"
