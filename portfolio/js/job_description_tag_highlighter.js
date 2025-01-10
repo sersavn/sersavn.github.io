@@ -93,8 +93,9 @@ document.addEventListener("DOMContentLoaded", function() {
             const isMatched = matchedTags.some(tagObj => tagObj.tag.toLowerCase() === familiarTag);
             if (!isMatched) {
                 const tagElement = document.querySelector(`.tagcloud-tag[data-tag="${familiarTag}"]`);
-                if (tagElement) {
-                    tagElement.classList.add('visible');
+                // if (tagElement) {
+                //    tagElement.classList.add('visible');
+                if (tagElement && tagElement.classList.contains('visible')) {
                     tagElement.classList.add('extra');
                 }
             }
