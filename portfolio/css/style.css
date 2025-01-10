@@ -76,7 +76,7 @@
     
     /* Appearance of the header */
     /* assets/css/common/header.css */
-    --header-delay: 20s;
+    --header-delay: 0s;
     --header-fade-in-time: 1s;
     
     /* Appearance of the job description */
@@ -454,6 +454,7 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
     margin-top: 0.5rem;
     justify-content: center;
     align-items: center;
+    animation: fadeInInstruction 1s ease forwards;
 }
 
 .typing {
@@ -466,6 +467,7 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
     font-size: var(--typing-container-font-size);
     color: rgb(var(--typing-container-font-rgb));
     text-align: left;
+    animation: fadeInInstruction 1s ease forwards;
 }
 
 .typing-text {
