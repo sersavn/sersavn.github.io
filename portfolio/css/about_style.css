@@ -1,0 +1,519 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 100 900; /* Variable weight range */
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+/* 
+=========================================
+1️⃣ VARIABLES
+========================================= 
+*/
+
+:root {
+    /* 1.1. Page settings */
+    --page-max-width: 1200px;
+    --2x-padding: 48px; /* to account papermod padding on different screens */
+    
+    
+    /* 1.2. Tag Cloud Variables */
+    --tagcloud-transition-user-duration: 3000ms;
+    --tagcloud-transition-user-ease: ease-in-out;
+    --tagcloud-transition-duration: 250ms;
+    --tagcloud-transition-ease: ease-out;
+    --tagcloud-animation-play-state: running; /* pause */
+    --tagcloud-diameter: 40rem;
+    --tagcloud-controls-diameter: 45rem;
+    --tagcloud-control-bg-color: transparent;
+    --tagcloud-control-bg-hover-color: transparent;
+    --tagcloud-control-bg-checked-color: transparent;
+    
+    /* 1.3. Colors */
+    --tag-color-known: #00ffc3; /* Bright cyan-green */
+    --tag-color-unknown: #ff5e78; /* Cyan-tinged red (salmon-like) */
+    --tag-color-extra: #1ec8ff; /* Vibrant cyan-blue */
+    --tag-color-default: #ffffff;
+    
+    --typing-container-font-rgb: 0, 255, 204;
+    --portfolio-navigation-font-rgb: 155, 156, 157;
+    
+    --tag-font-rgb: 255, 255, 255;
+    --bg-color-rgb: 33, 33, 33;
+    --bg-color-shadow-rgb: 0, 0, 0;
+    --jobdescr-font-placeholder-rgb: 155, 156, 157;
+    --jobdescr-font-rgb: 255, 255, 255;
+    --jobdescr-focus-border-rgb: 0, 255, 204;
+    --jobdescr-focus-border-glow-rgba: 0, 255, 204, 0.5;
+    --jobdescr-focus-background-rgb: 19, 20, 22;
+    --jobdescr-border-rgb: 51, 51, 51;
+    --jobdescr-bg-color-rgb: 29, 30, 32;
+    /* 1.4. Font types */
+    
+    /* 1.5. Font sizes */
+    --tag-font-size: 1rem;
+    --tag-hover-font-size: 1.75rem;
+    --typing-container-font-size: 1.5rem;
+    --instruction-font-size: 0.8rem;
+    --jobdescr-font-size: 0.8rem;
+
+    /* 1.6. Fade in control panel */
+    
+    /* Appearance of the header */
+    /* assets/css/common/header.css */
+    --header-delay: 0s;
+    --header-fade-in-time: 1s;
+    
+    /* Appearance of the job description */
+    --jobdescr-delay: 18s;
+    --jobdescr-fade-in-time: 1s;
+    
+}
+
+*, *::before, *::after {
+    /* Box Model */
+    box-sizing: border-box; 
+    margin: 0px;
+}
+
+*:focus {
+    /* Visual Styles */
+    outline: none; 
+}
+
+html {
+    /* Positioning */
+    position: relative;
+    max-width: var(--page-max-width);
+    margin: auto;
+    /* Box Model */
+    width: 100%;
+    overflow-x: hidden;
+    /* Typography */
+    font-size: 20px;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Visual Styles */
+    /*background-color: rgb(var(--bg-color-rgb));*/
+    /*font-family: 'Noto Sans', sans-serif;*/
+    font family: 'Open Sans';
+    /*font-weight: 400;*/
+}
+
+/* 
+=========================================
+3️⃣ COMPONENTS
+========================================= 
+*/
+
+
+.page-header {
+    width: 1152px;
+}
+
+
+
+/* 
+=========================================
+4️⃣ MEDIA QUERIES
+========================================= 
+*/
+
+@media only screen and (max-width: 319px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #000; /* Optional: Make it more noticeable */
+        color: #fff;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    body > * {
+        display: none; /* Hide all other content */
+    }
+
+    body::before {
+        content: "Your screen is too small to display this site. Please use a larger device.";
+    }
+    
+    #jobDescription {
+        display: none; /* Completely hides the textarea */
+    }
+}
+
+/* Extra small screens (max-width: 25rem) */
+@media only screen and (min-width: 319px) and (max-width: 400px) {
+    :root {
+        --page-max-width: 320px;
+        --2x-padding: 28px;
+        --typing-container-font-size: calc(var(--typing-container-font-size) * 0.5);
+        --tag-font-size: 0.5rem;
+        --tag-hover-font-size: 0.75rem;
+        --typing-container-font-size: 0.75rem;
+        --instruction-font-size: 0.6rem;
+        --jobdescr-font-size: 0.6rem;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 512px) {
+    :root {
+        --page-max-width: 400px;
+        --2x-padding: 28px;
+        --typing-container-font-size: calc(var(--typing-container-font-size) * 0.7);
+        --tag-font-size: 0.6rem;
+        --tag-hover-font-size: 0.9rem;
+        --typing-container-font-size: 0.9rem;
+        --instruction-font-size: 0.6rem;
+        --jobdescr-font-size: 0.6rem;
+    }
+}
+
+@media only screen and (min-width: 512px) and (max-width: 768px) {
+    :root {
+        --page-max-width: 512px;
+        --2x-padding: 28px;
+        --typing-container-font-size: calc(var(--typing-container-font-size) * 1);
+        --tag-font-size: 0.8rem;
+        --tag-hover-font-size: 1.2rem;
+        --typing-container-font-size: 0.9rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    :root {
+        --page-max-width: 768px;
+        --2x-padding: 28px;
+        --typing-container-font-size: 1.25rem;
+        --tag-font-size: 1rem;
+        --tag-hover-font-size: 1.6rem;
+    }
+}
+
+/*
+====
+5️⃣ CAL HEATMAP
+====
+*/
+
+
+/* Highlight the selected subdomain with a border */
+.ch-subdomain-cell.selected {
+    border: 25px solid #ff0000; /* Red border for visibility */
+}
+
+
+/*
+========================================
+5️⃣ ANIMATIONS
+========================================= 
+*/
+
+@keyframes tagcloud-rotation {
+    0% {
+        transform: translate(-50%, -50%) rotateX(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotateX(360deg);
+    }
+}
+
+@keyframes tagcloud-tag-rotation {
+    0% {
+        transform: translate3d(var(--_final-x), var(--_final-y), var(--_final-z)) rotateX(360deg);
+    }
+    100% {
+        transform: translate3d(var(--_final-x), var(--_final-y), var(--_final-z)) rotateX(0deg);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0; /* Fully hidden */
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent; /* Cursor disappears at 50% */
+    }
+    100% {
+        border-color: transparent; /* Ensure it stays transparent */
+    }
+}
+
+@keyframes fadeInJobDescr {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInInstruction {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInTagcloud {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+/* Hide the delayed PaperMod content initially */
+#delayed-papermod-content-wrapper {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s ease-in-out, visibility 1s ease-in-out;
+}
+
+/* Class to show the delayed PaperMod content */
+.show-delayed-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*
+================
+BAR CHART
+================
+*/
+
+
+/* Container for the hourly bar chart */
+#hourly-bar-chart {
+    display: flex;
+    align-items: flex-end; /* Align bars to the bottom */
+    justify-content: space-between; /* Evenly distribute bars */
+    height: 300px; /* Adjust the height as needed */
+    width: 100%;
+    max-width: 1800px; /* Optional: Limit the maximum width */
+    margin: 50px auto; /* Center the chart horizontally with top/bottom margin */
+    padding-left: 36px;
+    padding-top: 36px;
+    position: relative;
+    box-sizing: border-box;
+    /*border: 1px solid #555;*/
+    position: relative;
+    background-color: transparent; /* Background color for the chart area */
+}
+
+/* Add styles for the date label */
+.date-label {
+    position: absolute;
+    transform: translateX(0%);
+    transform: translateY(-0%);
+    top: 0;
+    left: 0;
+    font-size: 18px; /* Optional: Adjust font size */
+    color: #BABABD; /* Optional: Change text color */
+}
+
+/* X-axis labels positioning */
+.x-axis-label {
+    position: absolute;
+    bottom: -25px; /* Position below the bar */
+    width: 100%; /* Ensure the label is as wide as the bar */
+    font-size: 12px;
+    color: #B3B3B5;
+    text-align: center; /* Center the text within the label */
+}
+
+/* Y-axis labels */
+.y-axis-label {
+    position: absolute;
+    left: 0px;
+    transform: translateX(0%);
+    /*transform: translateY(-50%);*/
+    font-size: 12px;
+    color: #B3B3B5;
+    text-align: right;
+    white-space: nowrap;
+}
+
+
+/* Individual bar */
+.bar {
+    position: relative;
+    width: 30px;
+    height: 100%;
+    margin: 0 4px; /* Space between bars */
+    background-color: #333;
+    border-radius: 4px 4px 4px 4px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth hover effects */
+    overflow: visible;
+    z-index: 1;
+}
+
+/* Bar segments representing activities */
+.bar-segment {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: #449a9a;
+    background-color: #449a9a; /* Semi-transparent segment color */
+    border-radius: 8px 8px 8px 8px;
+    transition: background-color 0.3s;
+}
+
+
+
+
+/*'#449a9a', '#4edede'*/
+
+/* Tooltip container */
+.tooltip {
+    visibility: hidden; /* Hidden by default */
+    font-size: 16px;
+    width: 320px; /* Width of the tooltip */
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly more opaque for better visibility */
+    color: #fff; /* Text color */
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 102.5%; /* Position above the bar */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0; /* Fully transparent */
+    transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* At the bottom of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.9) transparent transparent transparent; /* Arrow pointing down */
+}
+
+/* Show the tooltip on hover */
+.bar-segment:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Making tooltip visible */
+.bar:hover {
+    z-index: 1000;
+}
+
+.bar-segment:hover {
+    z-index: 1000;
+}
+
+
+/* Highlight class for contiguous segments */
+.bar-segment.namehighlight {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    background-color: #4edede;
+}
+
+/* Keyframes for the reveal animation */
+@keyframes reveal {
+    to {
+        width: 100%; /* Expand to full width */
+    }
+}
+/* NEW */
+
+/* Bar segments representing activities */
+/*
+.bar-segment {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: #449a9a;
+    background-color: #449a9a;
+    border-radius: 8px 8px 8px 8px;
+    transition: background-color 0.3s, opacity 0.3s;
+}
+*/
+/* New class for ongoing segments */
+
+/*
+Please modify css in a such way that it would pulse between
+#449a9a and #daa520
+*/
+.bar-segment-ongoing {
+    background-color: #daa520;
+    animation: ongoingPulse 2s infinite;
+    /*opacity: 0.8;*/
+}
+
+/* Pulsing animation for ongoing segments */
+@keyframes ongoingPulse {
+    0% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 0.6;
+    }
+}
+
+
+
+/*
+=====
+CAL HEATMAP
+====
+*/
+
+#year-cal-heatmap .ch-domain-text{
+    font-size: 12px; /* Adjust size as needed */;
+    color: #B3B3B5;
+    }
+
+#year-cal-heatmap svg .ch-subdomain-bg.selected {
+    stroke: #daa520; /* Red border color */
+    stroke-width: 3; /* Adjust width as necessary */
+    fill-opacity: 1; /* Ensuring the fill doesn't hide the stroke */
+    vector-effect: non-scaling-stroke;
+}
+
+#year-cal-heatmap > svg > svg.ch-plugin-calendar-label > g > text {
+    font-size: 12px !important; /* Adjust the size as needed */
+    color: #B3B3B5; /* Optional: Change the text color */
+}
+
+#ch-tooltip {
+    font-size: 16px; /* Adjust size as needed */;
+    color: #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.legend-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.legend-div {
+    display: inline-block;
+    margin: 0px 8px -2px;
+}
+
+.less-label, .more-label {
+    font-size: 12px;
+    color: #B3B3B5;
+}
+
