@@ -8,6 +8,12 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans);
 */
 
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 100 900; /* Variable weight range */
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
 
 /* 
 =========================================
@@ -40,9 +46,9 @@
     --tag-diameter: 6rem;
     
     /* 1.3. Colors */
-    --tag-color-known: #00ffc3; /* Bright cyan-green */
-    --tag-color-unknown: #ff5e78; /* Cyan-tinged red (salmon-like) */
-    --tag-color-extra: #1ec8ff; /* Vibrant cyan-blue */
+    --tag-color-known: #00ffc3;
+    --tag-color-unknown: #ff5e78;
+    --tag-color-extra: #1ec8ff;
     --tag-color-default: #ffffff;
     
     --typing-container-font-rgb: 0, 255, 204;
@@ -58,16 +64,16 @@
     --jobdescr-focus-background-rgb: 19, 20, 22;
     --jobdescr-border-rgb: 51, 51, 51;
     --jobdescr-bg-color-rgb: 29, 30, 32;
+    
     /* 1.4. Font types */
-    --greeting-font-family: 'Courier New', Courier, monospace;
-    --typing-font-family: 'Courier New', Courier, monospace;
-    --instruction-font-family: 'Open Sans', sans-serif;
-    --tag-font-family: 'Open Sans', sans-serif;
-    --jobdescr-font-family: 'Open Sans', sans-serif;
+    --greeting-font-family: 'Noto', monospace;
+    --typing-font-family: 'Noto', monospace;
+    --instruction-font-family: 'Noto', sans-serif;
+    --tag-font-family: 'Noto', sans-serif;
+    --jobdescr-font-family: 'Noto', sans-serif;
     
     /* 1.5. Font sizes */
     --tag-font-size: 1rem;
-    --tag-hover-font-size: 1.75rem;
     --typing-container-font-size: 1.5rem;
     --instruction-font-size: 0.8rem;
     --jobdescr-font-size: 0.8rem;
@@ -94,6 +100,12 @@
     
 }
 
+/* 
+=========================================
+2️⃣ RESET & BASE STYLES
+========================================= 
+*/
+
 *, *::before, *::after {
     /* Box Model */
     box-sizing: border-box; 
@@ -106,49 +118,26 @@
 }
 
 html {
-    /* Positioning */
     position: relative;
     max-width: var(--page-max-width);
     margin: auto;
-    /* Box Model */
     width: 100%;
     overflow-x: hidden;
-    /* Typography */
     font-size: 20px;
 }
 
 body {
-    /* Positioning */
     position: relative;
-    /* Box Model */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* Visual Styles */
     background-color: rgb(var(--bg-color-rgb));
 }
 
-/* white line */
-/*
-body::after {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 50%;
-    width: 1px;
-    height: 100%
-    background: white;
-    z-index: 9999;
-    transform: translateX(-50%);
-}*/
-
-
-
-
 /* 
 =========================================
-2️⃣ TAG CLOUD COMPONENT
+3️⃣ TAG CLOUD COMPONENT
 ========================================= 
 */
 
@@ -163,12 +152,9 @@ body::after {
     max-height: calc(2*var(--_control-radius));
     position: relative;
     aspect-ratio: 1 / 1;
-    /* Box Model */
-    overflow-y: hidden;
-    overflow-x: hidden;
+    overflow: hidden;
     justify-content: center;
     align-items: center;
-    /* Typography */
     font-family: var(--tag-font-family);
     font-size: var(--tag-font-size);
 }
@@ -266,7 +252,7 @@ ul.tagcloud-tags li.tagcloud-tag {
     /* Visual Styles */
     opacity: 0;
     visibility: hidden;
-    transition: opacity 1s ease-in-out, color 1s ease-in-out, background-color 1s ease-in-out;
+    transition: opacity 0.7s ease-in-out, color 0.7s ease-in-out, background-color 0.7s ease-in-out;
 }
 
 ul.tagcloud-tags li.tagcloud-tag.visible {
@@ -275,7 +261,6 @@ ul.tagcloud-tags li.tagcloud-tag.visible {
     /* Visual Styles */
     visibility: visible;
     opacity: 1;
-    /*transition: color 2s ease-in-out, background-color 2s ease-in-out;*/
 }
 
 /* Show only the tags that have the 'visible' class */
@@ -522,9 +507,10 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
 #jobDescription {
     /* Positioning */
     display: block;            /* Block element */
-    max-width: 90vw;          /* Maximum width */
+    max-width: 900px;          /* Maximum width */
+    min-width: 40%;
     width: 800px;
-    max-height: 12.5vh;
+    max-height: 20vh;
     min-height: 80px;
     height: 120px;             /* Fixed height for minimalism */
     /* Typography */
@@ -586,7 +572,6 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
         --2x-padding: 28px;
         --typing-container-font-size: calc(var(--typing-container-font-size) * 0.5);
         --tag-font-size: 0.5rem;
-        --tag-hover-font-size: 0.75rem;
         --typing-container-font-size: 0.75rem;
         --instruction-font-size: 0.6rem;
         --jobdescr-font-size: 0.6rem;
@@ -618,7 +603,6 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
         --2x-padding: 28px;
         --typing-container-font-size: calc(var(--typing-container-font-size) * 0.7);
         --tag-font-size: 0.6rem;
-        --tag-hover-font-size: 0.9rem;
         --typing-container-font-size: 0.9rem;
         --instruction-font-size: 0.6rem;
         --jobdescr-font-size: 0.6rem;
@@ -660,7 +644,6 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
         --2x-padding: 28px;
         --typing-container-font-size: calc(var(--typing-container-font-size) * 1);
         --tag-font-size: 0.8rem;
-        --tag-hover-font-size: 1.2rem;
         --typing-container-font-size: 0.9rem;
         --tag-diameter: 3.5rem
     }
@@ -694,7 +677,6 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
         --2x-padding: 28px;
         --typing-container-font-size: 1.25rem;
         --tag-font-size: 1rem;
-        --tag-hover-font-size: 1.6rem;
         --tag-diameter: 4.5rem
     }
     
