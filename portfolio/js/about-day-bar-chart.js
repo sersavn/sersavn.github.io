@@ -1,4 +1,4 @@
-import { getTimeEntries } from './about-cache.js';
+import { getTogglTimeEntries } from './about-cache.js';
 
 
 /**
@@ -383,7 +383,7 @@ function generateBarPlot(hourlyData, groupInfo, dateStr) {
 async function exampleBarPlotUsage(dateStr) {
     try {
         // Fetch data using the shared cache
-        const csvData = await getTimeEntries();
+        const csvData = await getTogglTimeEntries();
 
         // Process the CSV data
         const { hourlyData, groupInfo } = await processCSVForBarPlot(csvData, dateStr);
@@ -396,6 +396,9 @@ async function exampleBarPlotUsage(dateStr) {
         console.error('Error in exampleBarPlotUsage:', error);
     }
 }
+
+// Expose the function to the global scope
+window.exampleBarPlotUsage = exampleBarPlotUsage;
 
 
 document.addEventListener('DOMContentLoaded', () => {

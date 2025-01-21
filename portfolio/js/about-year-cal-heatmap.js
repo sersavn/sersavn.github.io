@@ -1,11 +1,10 @@
-import { getTimeEntries } from './about-cache.js';
+import { getTogglTimeEntries } from './about-cache.js';
 
-
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     console.log('Script loaded and DOMContentLoaded event fired.');
     
     // Fetch data using the shared cache
-    const csvData = await getTimeEntries();
+    const csvData = await getTogglTimeEntries();
     
     // Initialize the Cal-Heatmap instance
     const cal = new CalHeatmap();
@@ -19,7 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     cal.on('dataReady', () => {
         console.log('Data successfully loaded and ready for rendering.');
     });
-    
     let selectedDate = null;
 
     // Function to format the timestamp to 'YYYY-MM-DD'
@@ -60,6 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cal.paint(
         {
             data: {
+                // source: encodeURIComponent(csvData),
                 source: 'data:text/csv;charset=utf-8,' + encodeURIComponent(csvData),
                 type: 'csv',
                 x: d => {
