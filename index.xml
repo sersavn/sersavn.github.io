@@ -9,7 +9,7 @@
       <url>https://sersavn.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>https://sersavn.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.141.0</generator>
     <language>en</language>
     <lastBuildDate>Thu, 05 Dec 2024 11:10:13 +0700</lastBuildDate>
     <atom:link href="https://sersavn.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -65,6 +65,13 @@ $$&lt;/p&gt;</description>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       <guid>https://sersavn.github.io/posts/page/</guid>
       <description>Desc Text.</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://sersavn.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://sersavn.github.io/about/</guid>
+      <description>&lt;p&gt;This content will not directly appear but serves to route the layout.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Concept Map</title>
