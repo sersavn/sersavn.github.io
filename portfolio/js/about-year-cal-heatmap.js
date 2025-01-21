@@ -1,5 +1,12 @@
+import { getTimeEntries } from './about-cache.js';
+
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Script loaded and DOMContentLoaded event fired.');
+    
+    // Fetch data using the shared cache
+    const csvData = await getTimeEntries();
+    
     // Initialize the Cal-Heatmap instance
     const cal = new CalHeatmap();
     
@@ -53,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cal.paint(
         {
             data: {
-                source: '../portfolio/data/dummy/time_entries.csv',
+                source: 'data:text/csv;charset=utf-8,' + encodeURIComponent(csvData),
                 type: 'csv',
                 x: d => {
                     const utcTimestamp = +d['start_timestamp'] * 1000; // Convert to milliseconds

@@ -1,3 +1,6 @@
+import { getTimeEntries } from './about-cache.js';
+
+
 /**
  * Parses CSV data into an array of objects.
  *
@@ -204,19 +207,14 @@ function assignGroupIDs(hourlyData) {
 }
 
 /**
- * Fetches and processes the CSV data for the bar plot.
+ * Processes CSV data for the bar plot.
  *
- * @param {string} csvPath - URL or path to the CSV file.
+ * @param {string} csvText - The CSV data as a string.
  * @param {string} dateStr - The target date in 'YYYY-MM-DD' format (UTC).
  * @returns {Promise<Object>} - Promise resolving to an object containing processed hourly data and group info.
  */
-async function processCSVForBarPlot(csvPath, dateStr) {
+async function processCSVForBarPlot(csvText, dateStr) {
     try {
-        const response = await fetch(csvPath);
-        if (!response.ok) {
-            throw new Error(`Failed to fetch CSV file: ${response.status} ${response.statusText}`);
-        }
-        const csvText = await response.text();
         const parsedEntries = parseCSV(csvText);
 
         // Create a Date object for the target date (UTC)
@@ -228,12 +226,15 @@ async function processCSVForBarPlot(csvPath, dateStr) {
         // Assign group IDs
         const { hourlyData: updatedHourlyData, groupInfo } = assignGroupIDs(hourlyData);
 
+        console.log('Processed CSV data for bar plot.');
+
         return { hourlyData: updatedHourlyData, groupInfo };
     } catch (error) {
         console.error('Error processing CSV for bar plot:', error);
         return { hourlyData: [], groupInfo: {} };
     }
 }
+
 
 /**
  * Creates a tooltip element with the provided content.
@@ -377,16 +378,25 @@ function generateBarPlot(hourlyData, groupInfo, dateStr) {
 }
 
 /**
- * Example usage of the processCSVForBarPlot and generateBarPlot functions.
- * This function can be called with the path to your CSV file and the desired date.
- *
  * @param {string} dateStr - The target date in 'YYYY-MM-DD' format (UTC).
- * @param {string} [csvPath='/portfolio/data/dummy/time_entries.csv'] - The URL or path to the CSV file.
  */
-async function exampleBarPlotUsage(dateStr, csvPath = '/portfolio/data/dummy/time_entries.csv') {
-    const { hourlyData, groupInfo } = await processCSVForBarPlot(csvPath, dateStr);
-    generateBarPlot(hourlyData, groupInfo, dateStr);
+async function exampleBarPlotUsage(dateStr) {
+    try {
+        // Fetch data using the shared cache
+        const csvData = await getTimeEntries();
+
+        // Process the CSV data
+        const { hourlyData, groupInfo } = await processCSVForBarPlot(csvData, dateStr);
+
+        // Generate the bar plot
+        generateBarPlot(hourlyData, groupInfo, dateStr);
+
+        console.log(`Bar plot generated for date: ${dateStr}`);
+    } catch (error) {
+        console.error('Error in exampleBarPlotUsage:', error);
+    }
 }
+
 
 document.addEventListener('DOMContentLoaded', () => {
     const currentDate = new Date().toISOString().split('T')[0];
