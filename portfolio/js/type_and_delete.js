@@ -62,6 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
     // Event listeners for user interactions to switch to typing the last word
     function handleInteraction() {
         skipToLastWord = true; // Set flag to move to the last word after current
+        if (charIndex === 0 && wordIndex === 0) { // Check if typing hasn't started yet
+            typeAndDelete(); // Initiate typing immediately if no action has started
+        }
     }
 
     document.addEventListener('click', handleInteraction);
