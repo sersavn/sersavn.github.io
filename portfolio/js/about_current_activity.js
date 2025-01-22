@@ -1,30 +1,21 @@
 import { getTogglTimeEntries } from './about-cache.js';
 
-// Update the clock and current activity display every second
-function updateAllDisplays() {
-    updateClock();
-    updateActivityDisplay();
-}
+// Function to hold the timezone offset
+let timezoneOffset = 0;
 
 // Function to hold the current activity data
 let currentActivity = null;
-
-// Update the local time display
-function updateClock() {
-    const now = new Date();
-    const localTimeString = now.toLocaleTimeString('en-GB', { 
-        hour: '2-digit', 
-        minute: '2-digit', 
-        second: '2-digit' 
-    }); // 24-hour format local time
-    document.getElementById('time-display').textContent = localTimeString;
-}
 
 // Load current activity using the shared cache
 async function loadCurrentActivity() {
     try {
         // Fetch CSV data using the shared cache
-        const csvText = await getTogglTimeEntries();
+        const result = await getTogglTimeEntries();
+        const csvText = result.data;
+        const tz_offset = result.timezoneOffset;
+        
+        // Store the timezone offset globally
+        timezoneOffset = tz_offset;
         
         // Parse the CSV data
         const rows = csvText.trim().split('\n');
@@ -49,6 +40,31 @@ async function loadCurrentActivity() {
         console.error('Error loading current activity:', error);
         document.getElementById('activity-display').textContent = 'Error loading activity.';
     }
+}
+
+// Update the clock and current activity display every second
+function updateAllDisplays() {
+    updateClock();
+    updateActivityDisplay();
+}
+
+// Update the local time display adjusted by timezoneOffset
+function updateClock() {
+    const now = new Date();
+    
+    // Calculate UTC time in milliseconds
+    const utcTime = now.getTime();
+    
+    // Adjust UTC time 
+    const adjustedTime = new Date(utcTime + (timezoneOffset * 3600 * 1000));
+    
+    // Format the adjusted time as HH:MM:SS
+    const hours = adjustedTime.getUTCHours().toString().padStart(2, '0');
+    const minutes = adjustedTime.getUTCMinutes().toString().padStart(2, '0');
+    const seconds = adjustedTime.getUTCSeconds().toString().padStart(2, '0');
+    const adjustedTimeString = `${hours}:${minutes}:${seconds}`;
+    
+    document.getElementById('time-display').textContent = adjustedTimeString;
 }
 
 // Update the activity display based on the current activity data

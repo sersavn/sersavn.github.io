@@ -4,7 +4,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     console.log('Script loaded and DOMContentLoaded event fired.');
     
     // Fetch data using the shared cache
-    const csvData = await getTogglTimeEntries();
+    const result = await getTogglTimeEntries()
+    const csvData = result.data;
     
     // Initialize the Cal-Heatmap instance
     const cal = new CalHeatmap();

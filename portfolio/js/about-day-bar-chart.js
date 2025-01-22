@@ -1,6 +1,5 @@
 import { getTogglTimeEntries } from './about-cache.js';
 
-
 /**
  * Parses CSV data into an array of objects.
  *
@@ -383,8 +382,9 @@ function generateBarPlot(hourlyData, groupInfo, dateStr) {
 async function exampleBarPlotUsage(dateStr) {
     try {
         // Fetch data using the shared cache
-        const csvData = await getTogglTimeEntries();
-
+        const result = await getTogglTimeEntries()
+        const csvData = result.data;
+        
         // Process the CSV data
         const { hourlyData, groupInfo } = await processCSVForBarPlot(csvData, dateStr);
 
@@ -401,8 +401,32 @@ async function exampleBarPlotUsage(dateStr) {
 window.exampleBarPlotUsage = exampleBarPlotUsage;
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const currentDate = new Date().toISOString().split('T')[0];
-    exampleBarPlotUsage(currentDate); // Call the function with today's date
+document.addEventListener('DOMContentLoaded', async () => {
+    try {
+        // Fetch Toggl time entries
+        const result = await getTogglTimeEntries();
+        
+        // Extract CSV data and timezone offset
+        const tz_offset = result.timezoneOffset;
+
+        if (typeof tz_offset !== 'number') {
+            throw new Error('Invalid timezoneOffset received from getTogglTimeEntries.');
+        }
+
+        // Get the current UTC time
+        const utcDate = new Date();
+        const utcTime = utcDate.getTime();
+
+        // Adjust UTC time using tz_offset to get the local date
+        const localTime = utcTime + (tz_offset * 3600 * 1000);
+        const currentDate = new Date(localTime).toISOString().split('T')[0];
+
+        // Call the function with the adjusted current date
+        exampleBarPlotUsage(currentDate);
+
+        console.log(`Bar plot generated for local date: ${currentDate}`);
+    } catch (error) {
+        console.error('Error during DOMContentLoaded processing:', error);
+    }
 });
 
