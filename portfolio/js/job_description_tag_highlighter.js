@@ -205,6 +205,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Add input event listener with debouncing
-    textarea.addEventListener('input', debounce(handleInput, 5000));
+    textarea.addEventListener('input', debounce(handleInput, 1000));
 });
 

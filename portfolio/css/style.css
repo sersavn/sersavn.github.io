@@ -502,6 +502,7 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
     /* Animations */
     animation: fadeInJobDescr var(--jobdescr-fade-in-time) ease forwards;
     animation-delay: var(--jobdescr-delay);
+    
 }
 
 #jobDescription {
@@ -510,7 +511,7 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
     max-width: 900px;          /* Maximum width */
     min-width: 40%;
     width: 800px;
-    max-height: 20vh;
+    max-height: 30vh;
     min-height: 80px;
     height: 120px;             /* Fixed height for minimalism */
     /* Typography */
@@ -518,6 +519,8 @@ ul.tagcloud-tags li.tagcloud-tag.visible.extra {
     font-size: var(--jobdescr-font-size);           /* Comfortable font size */
     color: rgb(var(--jobdescr-font-rgb));               /* White text for contrast */
     /* Visual Styles */
+    padding-left: 8px;
+    padding-right: 8px;
     background-color: rgb(var(--jobdescr-bg-color-rgb));    /* Black background to match tag sphere */
     border: 1px solid rgb(var(--jobdescr-border-rgb));    /* Subtle dark gray border */
     border-radius: 8px;        /* Rounded corners for a modern look */

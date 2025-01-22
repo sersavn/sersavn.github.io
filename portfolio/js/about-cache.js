@@ -1,6 +1,6 @@
 const CACHE_DURATION = 180 * 1000; // 180 seconds in milliseconds
-const DATA_URL = 'https://storage.yandexcloud.net/sersavn-github-io-bucket/time_entries.csv';
-//const DATA_URL = '/portfolio/data/dummy/time_entries.csv';
+//const DATA_URL = 'https://storage.yandexcloud.net/sersavn-github-io-bucket/time_entries.csv';
+const DATA_URL = '/portfolio/data/dummy/time_entries.csv';
 
 const cache = {
   data: null,
