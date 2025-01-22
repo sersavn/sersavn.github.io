@@ -349,7 +349,15 @@ function generateBarPlot(hourlyData, groupInfo, dateStr) {
 
             // Create tooltip
             const combinedDescription = `${[...group.project_names].join(', ')}: ${[...group.descriptions].join(', ')}`;
-            const tooltipContent = `${combinedDescription} <br> ${groupStartLocalTime} - ${groupEndLocalTime}`;
+            let tooltipContent; // Declare tooltipContent variable outside of conditionals to be accessible later
+
+            // Check the ongoing status to customize tooltip content
+            if (segment.ongoing) {
+                tooltipContent = `${combinedDescription} <br> ${groupStartLocalTime} - ongoing`;
+            } else {
+                tooltipContent = `${combinedDescription} <br> ${groupStartLocalTime} - ${groupEndLocalTime}`;
+            }
+            
             const tooltip = createTooltip(tooltipContent);
             segmentDiv.appendChild(tooltip);
 
