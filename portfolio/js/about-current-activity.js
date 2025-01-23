@@ -79,8 +79,14 @@ function updateActivityDisplay() {
         const minutes = Math.floor((durationInSeconds % 3600) / 60);
         const seconds = durationInSeconds % 60;
 
-        const activityText = `Engaged in ${currentActivity.project_name} – ${currentActivity.description} for ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-        document.getElementById('activity-display').textContent = activityText;
+        const activityText = `
+        Engaged in:<br>
+        - Project: ${currentActivity.project_name}<br>
+        - Current Task: ${currentActivity.description}<br>
+        - Duration: ${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}
+        `;
+
+        document.getElementById('activity-display').innerHTML = activityText;
     } else {
         document.getElementById('activity-display').textContent = 'Currently not tracking';
     }
