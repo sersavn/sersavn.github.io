@@ -301,7 +301,9 @@ BAR CHART
     height: 300px; /* Adjust the height as needed */
     width: 100%;
     max-width: 1800px; /* Optional: Limit the maximum width */
-    margin: 50px auto; /* Center the chart horizontally with top/bottom margin */
+    /*margin: 50px auto; *//* Center the chart horizontally with top/bottom margin */
+    margin-top: 72px;
+    margin-bottom: 48px;
     padding-left: 36px;
     padding-top: 36px;
     position: relative;
