@@ -1,421 +1,729 @@
 {
   "nodes": [
     {
-      "id": "Marginal",
-      "group": 6,
-      "url": "posts/marginal"
-    },
-    {
-      "id": "Discrete Mathematics",
-      "group": 1,
-      "url": "posts/discrete-mathematics"
-    },
-    {
-      "id": "3rd Kolmogorov Axiom",
-      "group": 7,
-      "url": "posts/3rd-kolmogorov-axiom"
-    },
-    {
-      "id": "Permutations",
-      "group": 4,
-      "url": "posts/permutations"
-    },
-    {
-      "id": "Sample Space",
-      "group": 3,
-      "url": "posts/sample-space"
-    },
-    {
-      "id": "Complementary",
-      "group": 6,
-      "url": "posts/complementary"
-    },
-    {
-      "id": "Mutually Exclusive Events",
-      "group": 6,
-      "url": "posts/mutually-exclusive-events"
-    },
-    {
-      "id": "Probability",
-      "group": 4,
-      "url": "posts/probability"
-    },
-    {
-      "id": "Elementary event",
-      "group": 5,
-      "url": "posts/elementary-event"
-    },
-    {
-      "id": "Countably Infinite",
-      "group": 5,
-      "url": "posts/countably-infinite"
-    },
-    {
-      "id": "Dependent",
-      "group": 6,
-      "url": "posts/dependent"
-    },
-    {
-      "id": "Set Theory",
+      "id": "Continuous Random Variables",
       "group": 2,
-      "url": "posts/set-theory"
+      "url": "posts/continuous-random-variables",
+      "mastery": "Intermediate"
     },
     {
-      "id": "Frequency",
-      "group": 6,
-      "url": "posts/frequency"
+      "id": "Convergence in Distribution",
+      "group": 2,
+      "url": "posts/convergence-in-distribution",
+      "mastery": "Intermediate"
     },
     {
-      "id": "Independent",
-      "group": 6,
-      "url": "posts/independent"
-    },
-    {
-      "id": "Intersection",
-      "group": 6,
-      "url": "posts/intersection"
-    },
-    {
-      "id": "Counting",
+      "id": "Stochastic Processes",
       "group": 3,
-      "url": "posts/counting"
+      "url": "posts/stochastic-processes",
+      "mastery": "Advanced"
     },
     {
-      "id": "Simulation",
-      "group": 6,
-      "url": "posts/simulation"
-    },
-    {
-      "id": "Approaches to probability",
-      "group": 5,
-      "url": "posts/approaches-to-probability"
-    },
-    {
-      "id": "Sample space types",
+      "id": "Kullback-Leibler Divergence",
       "group": 4,
-      "url": "posts/sample-space-types"
+      "url": "posts/kullback-leibler-divergence",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Random Variables",
+      "group": 1,
+      "url": "posts/random-variables",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Law of Total Probability",
+      "group": 5,
+      "url": "posts/law-of-total-probability",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Chernoff Bounds",
+      "group": 3,
+      "url": "posts/chernoff-bounds",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Discrete-Time Markov Chains",
+      "group": 4,
+      "url": "posts/discrete-time-markov-chains",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Basic Set Theory",
+      "group": 1,
+      "url": "posts/basic-set-theory",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Hoeffding Inequality",
+      "group": 3,
+      "url": "posts/hoeffding-inequality",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Azuma's Inequality",
+      "group": 3,
+      "url": "posts/azuma's-inequality",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Markov Chain Monte Carlo",
+      "group": 4,
+      "url": "posts/markov-chain-monte-carlo",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Variance",
+      "group": 4,
+      "url": "posts/variance",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Martingales",
+      "group": 4,
+      "url": "posts/martingales",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Conditional Distribution",
+      "group": 3,
+      "url": "posts/conditional-distribution",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Cumulative Distribution Function",
+      "group": 3,
+      "url": "posts/cumulative-distribution-function",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Covariance",
+      "group": 4,
+      "url": "posts/covariance",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Continuous-Time Markov Chains",
+      "group": 4,
+      "url": "posts/continuous-time-markov-chains",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Optional Stopping Theorem",
+      "group": 6,
+      "url": "posts/optional-stopping-theorem",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Second Kolmogorov Axiom",
+      "group": 1,
+      "url": "posts/second-kolmogorov-axiom",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Expectation",
+      "group": 3,
+      "url": "posts/expectation",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Extreme Value Theory",
+      "group": 4,
+      "url": "posts/extreme-value-theory",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "First Kolmogorov Axiom",
+      "group": 1,
+      "url": "posts/first-kolmogorov-axiom",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Moment Generating Functions",
+      "group": 5,
+      "url": "posts/moment-generating-functions",
+      "mastery": "Intermediate"
     },
     {
       "id": "Combinations",
-      "group": 4,
-      "url": "posts/combinations"
-    },
-    {
-      "id": "Classical",
-      "group": 6,
-      "url": "posts/classical"
-    },
-    {
-      "id": "1st Kolmogorov Axiom",
-      "group": 5,
-      "url": "posts/1st-kolmogorov-axiom"
-    },
-    {
-      "id": "Conditional",
-      "group": 6,
-      "url": "posts/conditional"
-    },
-    {
-      "id": "Finite",
-      "group": 5,
-      "url": "posts/finite"
-    },
-    {
-      "id": "Union",
-      "group": 6,
-      "url": "posts/union"
-    },
-    {
-      "id": "Probability rules",
-      "group": 5,
-      "url": "posts/probability-rules"
-    },
-    {
-      "id": "2nd Kolmogorov Axiom",
-      "group": 6,
-      "url": "posts/2nd-kolmogorov-axiom"
-    },
-    {
-      "id": "DeMorgan Laws",
-      "group": 7,
-      "url": "posts/demorgan-laws"
-    },
-    {
-      "id": "Multiplication rule (for intersections)",
-      "group": 6,
-      "url": "posts/multiplication-rule-(for-intersections)"
-    },
-    {
-      "id": "Subjective",
-      "group": 6,
-      "url": "posts/subjective"
-    },
-    {
-      "id": "Collectively Exhaustive",
-      "group": 6,
-      "url": "posts/collectively-exhaustive"
-    },
-    {
-      "id": "With Replacement",
-      "group": 5,
-      "url": "posts/with-replacement"
-    },
-    {
-      "id": "Event",
-      "group": 4,
-      "url": "posts/event"
-    },
-    {
-      "id": "Properties of Events",
-      "group": 5,
-      "url": "posts/properties-of-events"
-    },
-    {
-      "id": "Set Operations",
-      "group": 3,
-      "url": "posts/set-operations"
-    },
-    {
-      "id": "Outcome",
-      "group": 5,
-      "url": "posts/outcome"
-    },
-    {
-      "id": "Combinatorics",
       "group": 2,
-      "url": "posts/combinatorics"
+      "url": "posts/combinations",
+      "mastery": "Foundational"
     },
     {
-      "id": "Addition rule",
-      "group": 6,
-      "url": "posts/addition-rule"
+      "id": "Discrete Random Variables",
+      "group": 2,
+      "url": "posts/discrete-random-variables",
+      "mastery": "Intermediate"
     },
     {
-      "id": "Probability types",
+      "id": "Bayes Theorem",
       "group": 5,
-      "url": "posts/probability-types"
+      "url": "posts/bayes-theorem",
+      "mastery": "Intermediate"
     },
     {
-      "id": "Complement rule",
-      "group": 6,
-      "url": "posts/complement-rule"
+      "id": "Mutual Information",
+      "group": 4,
+      "url": "posts/mutual-information",
+      "mastery": "Advanced"
     },
     {
-      "id": "Uncountably Infinite",
+      "id": "Random Walks",
       "group": 5,
-      "url": "posts/uncountably-infinite"
+      "url": "posts/random-walks",
+      "mastery": "Advanced"
     },
     {
-      "id": "Without Replacement",
+      "id": "Higher Moments",
+      "group": 4,
+      "url": "posts/higher-moments",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Copulas",
+      "group": 3,
+      "url": "posts/copulas",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Advanced Bayesian Inference",
+      "group": 7,
+      "url": "posts/advanced-bayesian-inference",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Entropy",
+      "group": 3,
+      "url": "posts/entropy",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Probability Distributions",
+      "group": 2,
+      "url": "posts/probability-distributions",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Marginal Distribution",
+      "group": 3,
+      "url": "posts/marginal-distribution",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Metropolis-Hastings Algorithm",
       "group": 5,
-      "url": "posts/without-replacement"
+      "url": "posts/metropolis-hastings-algorithm",
+      "mastery": "Advanced"
     },
     {
-      "id": "Complement",
+      "id": "Variational Inference",
+      "group": 4,
+      "url": "posts/variational-inference",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Almost Sure Convergence",
+      "group": 2,
+      "url": "posts/almost-sure-convergence",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Basic Bayesian Inference",
       "group": 6,
-      "url": "posts/complement"
+      "url": "posts/basic-bayesian-inference",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Gibbs Sampling",
+      "group": 5,
+      "url": "posts/gibbs-sampling",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Probability Measure",
+      "group": 2,
+      "url": "posts/probability-measure",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Third Kolmogorov Axiom",
+      "group": 1,
+      "url": "posts/third-kolmogorov-axiom",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Independence",
+      "group": 4,
+      "url": "posts/independence",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Importance Sampling",
+      "group": 4,
+      "url": "posts/importance-sampling",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Events",
+      "group": 3,
+      "url": "posts/events",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Conditional Probability",
+      "group": 4,
+      "url": "posts/conditional-probability",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Probability Mass Function",
+      "group": 3,
+      "url": "posts/probability-mass-function",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Concentration Inequalities",
+      "group": 2,
+      "url": "posts/concentration-inequalities",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Probability Density Function",
+      "group": 3,
+      "url": "posts/probability-density-function",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Central Limit Theorem",
+      "group": 5,
+      "url": "posts/central-limit-theorem",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Joint Distribution",
+      "group": 2,
+      "url": "posts/joint-distribution",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Order Statistics",
+      "group": 3,
+      "url": "posts/order-statistics",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Law of Large Numbers",
+      "group": 5,
+      "url": "posts/law-of-large-numbers",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Permutations",
+      "group": 2,
+      "url": "posts/permutations",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Convergence in Probability",
+      "group": 2,
+      "url": "posts/convergence-in-probability",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Basic Combinatorics",
+      "group": 1,
+      "url": "posts/basic-combinatorics",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Correlation",
+      "group": 5,
+      "url": "posts/correlation",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Law of Iterated Expectation",
+      "group": 4,
+      "url": "posts/law-of-iterated-expectation",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Stopping Times",
+      "group": 5,
+      "url": "posts/stopping-times",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Monte Carlo Simulation",
+      "group": 3,
+      "url": "posts/monte-carlo-simulation",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Sample Space",
+      "group": 2,
+      "url": "posts/sample-space",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Poisson Process",
+      "group": 4,
+      "url": "posts/poisson-process",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Renewal Process",
+      "group": 4,
+      "url": "posts/renewal-process",
+      "mastery": "Advanced"
     }
   ],
   "links": [
     {
-      "source": "Discrete Mathematics",
-      "target": "Set Theory"
-    },
-    {
-      "source": "Discrete Mathematics",
-      "target": "Combinatorics"
-    },
-    {
-      "source": "Combinatorics",
-      "target": "Counting"
-    },
-    {
-      "source": "Counting",
-      "target": "Permutations"
-    },
-    {
-      "source": "Permutations",
-      "target": "With Replacement"
-    },
-    {
-      "source": "Permutations",
-      "target": "Without Replacement"
-    },
-    {
-      "source": "Counting",
-      "target": "Combinations"
-    },
-    {
-      "source": "Combinations",
-      "target": "With Replacement"
-    },
-    {
-      "source": "Combinations",
-      "target": "Without Replacement"
-    },
-    {
-      "source": "Set Theory",
-      "target": "Set Operations"
-    },
-    {
-      "source": "Set Operations",
-      "target": "Union"
-    },
-    {
-      "source": "Set Operations",
-      "target": "Intersection"
-    },
-    {
-      "source": "Set Operations",
-      "target": "Complement"
-    },
-    {
-      "source": "Set Theory",
-      "target": "Sample Space"
+      "source": "Basic Set Theory",
+      "target": "Sample Space",
+      "mastery": "Foundational"
     },
     {
       "source": "Sample Space",
-      "target": "Event"
+      "target": "Events",
+      "mastery": "Foundational"
     },
     {
-      "source": "Sample Space",
-      "target": "Probability"
+      "source": "First Kolmogorov Axiom",
+      "target": "Probability Measure",
+      "mastery": "Foundational"
     },
     {
-      "source": "Probability",
-      "target": "Outcome"
+      "source": "Second Kolmogorov Axiom",
+      "target": "Probability Measure",
+      "mastery": "Foundational"
     },
     {
-      "source": "Sample Space",
-      "target": "Sample space types"
+      "source": "Third Kolmogorov Axiom",
+      "target": "Probability Measure",
+      "mastery": "Foundational"
     },
     {
-      "source": "Sample space types",
-      "target": "Finite"
+      "source": "Probability Measure",
+      "target": "Events",
+      "mastery": "Foundational"
     },
     {
-      "source": "Sample space types",
-      "target": "Countably Infinite"
+      "source": "Basic Combinatorics",
+      "target": "Permutations",
+      "mastery": "Foundational"
     },
     {
-      "source": "Sample space types",
-      "target": "Uncountably Infinite"
+      "source": "Basic Combinatorics",
+      "target": "Combinations",
+      "mastery": "Foundational"
     },
     {
-      "source": "Event",
-      "target": "Elementary event"
+      "source": "Events",
+      "target": "Conditional Probability",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Event",
-      "target": "Properties of Events"
+      "source": "Probability Measure",
+      "target": "Conditional Probability",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Properties of Events",
-      "target": "Mutually Exclusive Events"
+      "source": "Conditional Probability",
+      "target": "Bayes Theorem",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Properties of Events",
-      "target": "Collectively Exhaustive"
+      "source": "Probability Measure",
+      "target": "Independence",
+      "mastery": "Foundational"
     },
     {
-      "source": "Properties of Events",
-      "target": "Independent"
+      "source": "Events",
+      "target": "Independence",
+      "mastery": "Foundational"
     },
     {
-      "source": "Properties of Events",
-      "target": "Dependent"
+      "source": "Random Variables",
+      "target": "Probability Distributions",
+      "mastery": "Advanced"
     },
     {
-      "source": "Properties of Events",
-      "target": "Complementary"
+      "source": "Random Variables",
+      "target": "Discrete Random Variables",
+      "mastery": "Advanced"
     },
     {
-      "source": "Mutually Exclusive Events",
-      "target": "DeMorgan Laws"
+      "source": "Random Variables",
+      "target": "Continuous Random Variables",
+      "mastery": "Advanced"
     },
     {
-      "source": "Collectively Exhaustive",
-      "target": "DeMorgan Laws"
+      "source": "Probability Distributions",
+      "target": "Cumulative Distribution Function",
+      "mastery": "Advanced"
     },
     {
-      "source": "Event",
-      "target": "1st Kolmogorov Axiom"
+      "source": "Discrete Random Variables",
+      "target": "Probability Mass Function",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Elementary event",
-      "target": "2nd Kolmogorov Axiom"
+      "source": "Continuous Random Variables",
+      "target": "Probability Density Function",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Sample Space",
-      "target": "2nd Kolmogorov Axiom"
+      "source": "Probability Distributions",
+      "target": "Expectation",
+      "mastery": "Advanced"
     },
     {
-      "source": "Countably Infinite",
-      "target": "3rd Kolmogorov Axiom"
+      "source": "Expectation",
+      "target": "Variance",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Mutually Exclusive Events",
-      "target": "3rd Kolmogorov Axiom"
+      "source": "Expectation",
+      "target": "Higher Moments",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Probability",
-      "target": "Probability types"
+      "source": "Higher Moments",
+      "target": "Moment Generating Functions",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Probability types",
-      "target": "Marginal"
+      "source": "Random Variables",
+      "target": "Joint Distribution",
+      "mastery": "Advanced"
     },
     {
-      "source": "Probability types",
-      "target": "Conditional"
+      "source": "Joint Distribution",
+      "target": "Marginal Distribution",
+      "mastery": "Advanced"
     },
     {
-      "source": "Probability types",
-      "target": "Union"
+      "source": "Joint Distribution",
+      "target": "Conditional Distribution",
+      "mastery": "Advanced"
     },
     {
-      "source": "Probability types",
-      "target": "Intersection"
+      "source": "Expectation",
+      "target": "Covariance",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Probability types",
-      "target": "Complement"
+      "source": "Covariance",
+      "target": "Correlation",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Probability",
-      "target": "Probability rules"
+      "source": "Conditional Probability",
+      "target": "Law of Total Probability",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Probability rules",
-      "target": "Complement rule"
+      "source": "Conditional Distribution",
+      "target": "Law of Iterated Expectation",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Probability rules",
-      "target": "Multiplication rule (for intersections)"
+      "source": "Expectation",
+      "target": "Law of Large Numbers",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Probability rules",
-      "target": "Addition rule"
+      "source": "Variance",
+      "target": "Law of Large Numbers",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Probability",
-      "target": "Approaches to probability"
+      "source": "Expectation",
+      "target": "Central Limit Theorem",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Approaches to probability",
-      "target": "Subjective"
+      "source": "Variance",
+      "target": "Central Limit Theorem",
+      "mastery": "Intermediate"
     },
     {
-      "source": "Approaches to probability",
-      "target": "Classical"
+      "source": "Random Variables",
+      "target": "Convergence in Probability",
+      "mastery": "Advanced"
     },
     {
-      "source": "Approaches to probability",
-      "target": "Frequency"
+      "source": "Random Variables",
+      "target": "Almost Sure Convergence",
+      "mastery": "Advanced"
     },
     {
-      "source": "Approaches to probability",
-      "target": "Simulation"
+      "source": "Random Variables",
+      "target": "Convergence in Distribution",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Random Variables",
+      "target": "Monte Carlo Simulation",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Probability Distributions",
+      "target": "Monte Carlo Simulation",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Bayes Theorem",
+      "target": "Basic Bayesian Inference",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Probability Distributions",
+      "target": "Stochastic Processes",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Random Variables",
+      "target": "Stochastic Processes",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Stochastic Processes",
+      "target": "Discrete-Time Markov Chains",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Stochastic Processes",
+      "target": "Continuous-Time Markov Chains",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Discrete-Time Markov Chains",
+      "target": "Random Walks",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Stochastic Processes",
+      "target": "Poisson Process",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Stochastic Processes",
+      "target": "Renewal Process",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Stochastic Processes",
+      "target": "Martingales",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Martingales",
+      "target": "Stopping Times",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Martingales",
+      "target": "Optional Stopping Theorem",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Stopping Times",
+      "target": "Optional Stopping Theorem",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Random Variables",
+      "target": "Concentration Inequalities",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Concentration Inequalities",
+      "target": "Chernoff Bounds",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Concentration Inequalities",
+      "target": "Hoeffding Inequality",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Concentration Inequalities",
+      "target": "Azuma's Inequality",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Probability Distributions",
+      "target": "Entropy",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Entropy",
+      "target": "Mutual Information",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Entropy",
+      "target": "Kullback-Leibler Divergence",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Basic Bayesian Inference",
+      "target": "Advanced Bayesian Inference",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Probability Distributions",
+      "target": "Advanced Bayesian Inference",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Bayesian Inference",
+      "target": "Markov Chain Monte Carlo",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Markov Chain Monte Carlo",
+      "target": "Gibbs Sampling",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Markov Chain Monte Carlo",
+      "target": "Metropolis-Hastings Algorithm",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Bayesian Inference",
+      "target": "Variational Inference",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Monte Carlo Simulation",
+      "target": "Importance Sampling",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Random Variables",
+      "target": "Order Statistics",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Probability Distributions",
+      "target": "Order Statistics",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Order Statistics",
+      "target": "Extreme Value Theory",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Joint Distribution",
+      "target": "Copulas",
+      "mastery": "Advanced"
     }
   ]
 }
