@@ -1,0 +1,717 @@
+{
+  "nodes": [
+    {
+      "id": "Operators",
+      "group": 3,
+      "url": "posts/operators",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Embedded Linux Integration",
+      "group": 3,
+      "url": "posts/embedded-linux-integration",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Function Pointers",
+      "group": 4,
+      "url": "posts/function-pointers",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Multithreading",
+      "group": 2,
+      "url": "posts/multithreading",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Strings",
+      "group": 5,
+      "url": "posts/strings",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Advanced Interrupt Prioritization",
+      "group": 3,
+      "url": "posts/advanced-interrupt-prioritization",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Instruction Set Architectures",
+      "group": 1,
+      "url": "posts/instruction-set-architectures",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Debugging Techniques",
+      "group": 4,
+      "url": "posts/debugging-techniques",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Firmware Over-the-Air Updates",
+      "group": 3,
+      "url": "posts/firmware-over-the-air-updates",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Bitwise Operations",
+      "group": 4,
+      "url": "posts/bitwise-operations",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Memory-Mapped I/O",
+      "group": 2,
+      "url": "posts/memory-mapped-i|o",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Safety-Critical Systems",
+      "group": 1,
+      "url": "posts/safety-critical-systems",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Hardware Abstraction",
+      "group": 1,
+      "url": "posts/hardware-abstraction",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Bootloaders",
+      "group": 2,
+      "url": "posts/bootloaders",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Simulators",
+      "group": 2,
+      "url": "posts/simulators",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Arrays",
+      "group": 4,
+      "url": "posts/arrays",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Embedded Software Design Patterns",
+      "group": 1,
+      "url": "posts/embedded-software-design-patterns",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Volatile Keyword",
+      "group": 1,
+      "url": "posts/volatile-keyword",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Embedded C Libraries",
+      "group": 2,
+      "url": "posts/embedded-c-libraries",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Data Types",
+      "group": 2,
+      "url": "posts/data-types",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Linker Scripts",
+      "group": 1,
+      "url": "posts/linker-scripts",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Concurrency Basics",
+      "group": 3,
+      "url": "posts/concurrency-basics",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Real Time Operating Systems",
+      "group": 4,
+      "url": "posts/real-time-operating-systems",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Code Optimization for Determinism",
+      "group": 5,
+      "url": "posts/code-optimization-for-determinism",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Preprocessor Directives",
+      "group": 1,
+      "url": "posts/preprocessor-directives",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Endianness",
+      "group": 2,
+      "url": "posts/endianness",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Structures",
+      "group": 3,
+      "url": "posts/structures",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Hardware Debugging",
+      "group": 6,
+      "url": "posts/hardware-debugging",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Peripheral Communication",
+      "group": 2,
+      "url": "posts/peripheral-communication",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Conditional Statements",
+      "group": 3,
+      "url": "posts/conditional-statements",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Concurrency in Embedded Systems",
+      "group": 4,
+      "url": "posts/concurrency-in-embedded-systems",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Macros",
+      "group": 2,
+      "url": "posts/macros",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Dynamic Memory Management",
+      "group": 5,
+      "url": "posts/dynamic-memory-management",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Register-level Programming",
+      "group": 1,
+      "url": "posts/register-level-programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Expressions",
+      "group": 4,
+      "url": "posts/expressions",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Embedded Systems Security",
+      "group": 1,
+      "url": "posts/embedded-systems-security",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "System-on-Chip Programming",
+      "group": 1,
+      "url": "posts/system-on-chip-programming",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Enumerations",
+      "group": 3,
+      "url": "posts/enumerations",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Memory Layout",
+      "group": 1,
+      "url": "posts/memory-layout",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Performance Profiling",
+      "group": 4,
+      "url": "posts/performance-profiling",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Standard Library Functions",
+      "group": 1,
+      "url": "posts/standard-library-functions",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Compiler Optimization",
+      "group": 3,
+      "url": "posts/compiler-optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Cross-Compilation",
+      "group": 2,
+      "url": "posts/cross-compilation",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Low-power Design",
+      "group": 1,
+      "url": "posts/low-power-design",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Fault Tolerance",
+      "group": 2,
+      "url": "posts/fault-tolerance",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Pointers",
+      "group": 3,
+      "url": "posts/pointers",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Low-level I/O",
+      "group": 1,
+      "url": "posts/low-level-i|o",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Emulators",
+      "group": 1,
+      "url": "posts/emulators",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Boot Time Optimization",
+      "group": 3,
+      "url": "posts/boot-time-optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "RTOS Internals",
+      "group": 5,
+      "url": "posts/rtos-internals",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Data Alignment",
+      "group": 2,
+      "url": "posts/data-alignment",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Memory Allocation",
+      "group": 4,
+      "url": "posts/memory-allocation",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "File I/O",
+      "group": 2,
+      "url": "posts/file-i|o",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Loops",
+      "group": 4,
+      "url": "posts/loops",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Cache Management",
+      "group": 2,
+      "url": "posts/cache-management",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Static Analysis",
+      "group": 4,
+      "url": "posts/static-analysis",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Inline Assembly",
+      "group": 2,
+      "url": "posts/inline-assembly",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Variables",
+      "group": 1,
+      "url": "posts/variables",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Functions",
+      "group": 3,
+      "url": "posts/functions",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Interrupt Handling",
+      "group": 2,
+      "url": "posts/interrupt-handling",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Real-time Constraints",
+      "group": 5,
+      "url": "posts/real-time-constraints",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Direct Memory Access",
+      "group": 5,
+      "url": "posts/direct-memory-access",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Debugging with JTAG",
+      "group": 5,
+      "url": "posts/debugging-with-jtag",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Synchronization Primitives",
+      "group": 1,
+      "url": "posts/synchronization-primitives",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Advanced Compiler Optimization",
+      "group": 4,
+      "url": "posts/advanced-compiler-optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Unions",
+      "group": 4,
+      "url": "posts/unions",
+      "mastery": "Foundational"
+    }
+  ],
+  "links": [
+    {
+      "source": "Variables",
+      "target": "Data Types",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Data Types",
+      "target": "Operators",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Operators",
+      "target": "Expressions",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Variables",
+      "target": "Expressions",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Expressions",
+      "target": "Conditional Statements",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Conditional Statements",
+      "target": "Loops",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Expressions",
+      "target": "Loops",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Variables",
+      "target": "Functions",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Expressions",
+      "target": "Functions",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Variables",
+      "target": "Pointers",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Data Types",
+      "target": "Pointers",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Pointers",
+      "target": "Arrays",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Arrays",
+      "target": "Strings",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Variables",
+      "target": "Structures",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Data Types",
+      "target": "Structures",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Structures",
+      "target": "Unions",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Data Types",
+      "target": "Enumerations",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Preprocessor Directives",
+      "target": "Macros",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Standard Library Functions",
+      "target": "File I/O",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Pointers",
+      "target": "Memory Allocation",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Functions",
+      "target": "Debugging Techniques",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Operators",
+      "target": "Bitwise Operations",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Memory Layout",
+      "target": "Data Alignment",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Memory Layout",
+      "target": "Endianness",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Functions",
+      "target": "Function Pointers",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Pointers",
+      "target": "Function Pointers",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Memory Allocation",
+      "target": "Dynamic Memory Management",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Volatile Keyword",
+      "target": "Interrupt Handling",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Interrupt Handling",
+      "target": "Concurrency Basics",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Interrupt Handling",
+      "target": "Real Time Operating Systems",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Register-level Programming",
+      "target": "Hardware Abstraction",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Standard Library Functions",
+      "target": "Embedded C Libraries",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Inline Assembly",
+      "target": "Compiler Optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Linker Scripts",
+      "target": "Cross-Compilation",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Compiler Optimization",
+      "target": "Static Analysis",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Low-level I/O",
+      "target": "Inline Assembly",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Hardware Abstraction",
+      "target": "Register-level Programming",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Concurrency Basics",
+      "target": "Real Time Operating Systems",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Debugging Techniques",
+      "target": "Debugging with JTAG",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Embedded Software Design Patterns",
+      "target": "Bootloaders",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Low-level I/O",
+      "target": "Peripheral Communication",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Concurrency Basics",
+      "target": "Concurrency in Embedded Systems",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Multithreading",
+      "target": "Concurrency in Embedded Systems",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Synchronization Primitives",
+      "target": "Multithreading",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Low-level I/O",
+      "target": "Memory-Mapped I/O",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Memory Allocation",
+      "target": "Direct Memory Access",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Real Time Operating Systems",
+      "target": "Real-time Constraints",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Hardware Abstraction",
+      "target": "Low-power Design",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Compiler Optimization",
+      "target": "Performance Profiling",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Memory Layout",
+      "target": "Cache Management",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Hardware Abstraction",
+      "target": "Instruction Set Architectures",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Embedded Systems Security",
+      "target": "Firmware Over-the-Air Updates",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Bootloaders",
+      "target": "Firmware Over-the-Air Updates",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Bootloaders",
+      "target": "Boot Time Optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Compiler Optimization",
+      "target": "Advanced Compiler Optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Compiler Optimization",
+      "target": "Code Optimization for Determinism",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Debugging with JTAG",
+      "target": "Hardware Debugging",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Emulators",
+      "target": "Simulators",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Interrupt Handling",
+      "target": "Advanced Interrupt Prioritization",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Safety-Critical Systems",
+      "target": "Fault Tolerance",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Embedded C Libraries",
+      "target": "Embedded Linux Integration",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Hardware Abstraction",
+      "target": "System-on-Chip Programming",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Real Time Operating Systems",
+      "target": "RTOS Internals",
+      "mastery": "Advanced"
+    }
+  ]
+}
