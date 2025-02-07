@@ -113,9 +113,37 @@ body {
 */
 
 
+/*
+=====
+GOOGLE CAL BUTTON
+====
+*/
+
 .page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Pushes h1 left, button right */
+    width: 100%;
+    position: relative; /* Keeps it inside the header */
     width: 1152px;
 }
+
+#about-frontend > header > button.qxCTlb {
+    border-radius: 8px 8px 8px 8px;
+    position: relative;
+    font-family: 'Noto Sans';
+    width: 318.3px;
+    height: 30px;
+    color: rgba(218, 218, 219, 1) !important;
+    background-color: rgba(51, 51, 51, 1) !important;
+    transition: color 0.6s ease-in-out, background-color 0.6s ease-in-out; /* Smooth transition */
+}
+
+#about-frontend > header > button.qxCTlb:hover {
+    background-color: rgba(0, 255, 204, 0.8) !important; /* Color change on hover */
+    color: rgb(30,31,31) !important;
+}
+
 
 
 
@@ -518,4 +546,6 @@ CAL HEATMAP
     font-size: 12px;
     color: #B3B3B5;
 }
+
+
 
