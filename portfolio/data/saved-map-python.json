@@ -1,0 +1,584 @@
+[
+  {
+    "id": "Network Programming",
+    "x": 1313.9700975641888,
+    "y": 1677.7511339006849,
+    "locked": false
+  },
+  {
+    "id": "Code Injection Prevention",
+    "x": 1471.4708739834218,
+    "y": 1254.366369068193,
+    "locked": true
+  },
+  {
+    "id": "Garbage Collection",
+    "x": 2433.794993203219,
+    "y": 2504.0145122100425,
+    "locked": false
+  },
+  {
+    "id": "Looping Constructs",
+    "x": 412.83608359749496,
+    "y": 2024.8863405171453,
+    "locked": false
+  },
+  {
+    "id": "Metaprogramming",
+    "x": 2834.9234465046993,
+    "y": 1370.96231126217,
+    "locked": false
+  },
+  {
+    "id": "Concurrency Basics",
+    "x": 680.4542402113199,
+    "y": 1291.2024754972754,
+    "locked": true
+  },
+  {
+    "id": "Encapsulation",
+    "x": 2416.3642245086985,
+    "y": 627.3353619831073,
+    "locked": true
+  },
+  {
+    "id": "Stubs",
+    "x": 1853.0819918014913,
+    "y": 2901.7170132597576,
+    "locked": true
+  },
+  {
+    "id": "Generic",
+    "x": 2524.235269221475,
+    "y": 1403.246050990623,
+    "locked": false
+  },
+  {
+    "id": "Packaging",
+    "x": 1354.3362181412829,
+    "y": 2170.722771777764,
+    "locked": true
+  },
+  {
+    "id": "Async/Await",
+    "x": 687.8609448973538,
+    "y": 902.465654919063,
+    "locked": true
+  },
+  {
+    "id": "Decorators",
+    "x": 2764.4295500538246,
+    "y": 784.9561803184813,
+    "locked": true
+  },
+  {
+    "id": "Programming Paradigms",
+    "x": 2129.6643343176816,
+    "y": 1434.3689332020656,
+    "locked": true
+  },
+  {
+    "id": "Web Frameworks",
+    "x": 1171.6492255892165,
+    "y": 1554.9944925734828,
+    "locked": false
+  },
+  {
+    "id": "Cython",
+    "x": 910.272916027378,
+    "y": 1680.4106323177334,
+    "locked": false
+  },
+  {
+    "id": "Dataclasses",
+    "x": 2532.672362719225,
+    "y": 598.1794417073947,
+    "locked": true
+  },
+  {
+    "id": "Polymorphism",
+    "x": 2682.308419705024,
+    "y": 905.0295286564025,
+    "locked": true
+  },
+  {
+    "id": "Abstraction",
+    "x": 2686.384323471514,
+    "y": 615.7778230587521,
+    "locked": true
+  },
+  {
+    "id": "Unit Testing",
+    "x": 1963.5396019862505,
+    "y": 2448.4099222910177,
+    "locked": true
+  },
+  {
+    "id": "Objects",
+    "x": 2584.7471258244673,
+    "y": 1032.2091556021023,
+    "locked": false
+  },
+  {
+    "id": "Iterators",
+    "x": 3163.8167563520406,
+    "y": 2099.6358071830196,
+    "locked": false
+  },
+  {
+    "id": "Mocks",
+    "x": 2082.837918522156,
+    "y": 2913.683419904809,
+    "locked": false
+  },
+  {
+    "id": "Asyncio",
+    "x": 1114.2347721999658,
+    "y": 857.8408080612794,
+    "locked": false
+  },
+  {
+    "id": "Advanced Testing",
+    "x": 1999.4197516440265,
+    "y": 2758.547188708841,
+    "locked": false
+  },
+  {
+    "id": "Functions",
+    "x": 978.1681503193994,
+    "y": 2560.0574403772903,
+    "locked": false
+  },
+  {
+    "id": "Context Managers",
+    "x": 2898.6841353034906,
+    "y": 869.8360837045121,
+    "locked": true
+  },
+  {
+    "id": "Reflection",
+    "x": 2998.989799173276,
+    "y": 1299.452823384454,
+    "locked": true
+  },
+  {
+    "id": "Lists",
+    "x": 1955.945227587251,
+    "y": 898.6289969465456,
+    "locked": true
+  },
+  {
+    "id": "for",
+    "x": 269.1647130661521,
+    "y": 2042.7027399691067,
+    "locked": false
+  },
+  {
+    "id": "Dictionaries",
+    "x": 2017.9663407206197,
+    "y": 954.1280110851283,
+    "locked": true
+  },
+  {
+    "id": "Standard Library",
+    "x": 1020.1320027145753,
+    "y": 3015.8643634081673,
+    "locked": false
+  },
+  {
+    "id": "Modules",
+    "x": 1054.67201573068,
+    "y": 2867.8981921487457,
+    "locked": true
+  },
+  {
+    "id": "Tuples",
+    "x": 1873.9384847215704,
+    "y": 701.1286168987558,
+    "locked": true
+  },
+  {
+    "id": "Asynchronous Programming",
+    "x": 1123.3638879898274,
+    "y": 1029.4880339424828,
+    "locked": true
+  },
+  {
+    "id": "Mutable",
+    "x": 1863.857738686169,
+    "y": 979.5547404891475,
+    "locked": true
+  },
+  {
+    "id": "Introspection",
+    "x": 2946.0582012275586,
+    "y": 1472.110483010987,
+    "locked": true
+  },
+  {
+    "id": "PyPy",
+    "x": 904.6444752223022,
+    "y": 1833.747694488722,
+    "locked": false
+  },
+  {
+    "id": "Basic Syntax",
+    "x": 975.7829893758172,
+    "y": 2162.1784199898375,
+    "locked": true
+  },
+  {
+    "id": "if-else",
+    "x": 513.3571215788228,
+    "y": 2137.0734622427212,
+    "locked": false
+  },
+  {
+    "id": "Basic Object-Oriented Programming",
+    "x": 2209.546999176941,
+    "y": 1046.220741958459,
+    "locked": true
+  },
+  {
+    "id": "Threading",
+    "x": 542.2215189346441,
+    "y": 1206.074287707939,
+    "locked": false
+  },
+  {
+    "id": "Sets",
+    "x": 1889.3746632759085,
+    "y": 849.0944542787926,
+    "locked": true
+  },
+  {
+    "id": "Packages",
+    "x": 1122.7035842452892,
+    "y": 3006.8070120036423,
+    "locked": false
+  },
+  {
+    "id": "Parallel Processing",
+    "x": 751.9812878025618,
+    "y": 838.8089692766542,
+    "locked": true
+  },
+  {
+    "id": "Virtual Environments",
+    "x": 1252.6614907160988,
+    "y": 2378.0455795587973,
+    "locked": true
+  },
+  {
+    "id": "Data Types",
+    "x": 625.3367703170031,
+    "y": 2288.212818603443,
+    "locked": true
+  },
+  {
+    "id": "Exception Handling",
+    "x": 887.2802673661313,
+    "y": 2702.7757947596942,
+    "locked": true
+  },
+  {
+    "id": "Best Practices",
+    "x": 1755.3049835635345,
+    "y": 1363.5363664710983,
+    "locked": true
+  },
+  {
+    "id": "Metaclasses",
+    "x": 2988.559041449694,
+    "y": 1404.561221718698,
+    "locked": true
+  },
+  {
+    "id": "Collections",
+    "x": 1889.016432050986,
+    "y": 473.044097095044,
+    "locked": true
+  },
+  {
+    "id": "Debugging Techniques",
+    "x": 2156.5683812651187,
+    "y": 2581.0301210436705,
+    "locked": true
+  },
+  {
+    "id": "Classes",
+    "x": 2423.12550621447,
+    "y": 1006.2839818607073,
+    "locked": false
+  },
+  {
+    "id": "data types",
+    "x": 1728.3296545681676,
+    "y": 800.3921489649082,
+    "locked": true
+  },
+  {
+    "id": "Numba",
+    "x": 962.2374249429603,
+    "y": 1903.0169557573843,
+    "locked": false
+  },
+  {
+    "id": "while",
+    "x": 307.6468848200225,
+    "y": 1924.1840761937572,
+    "locked": false
+  },
+  {
+    "id": "JIT Compilation",
+    "x": 965.221996523746,
+    "y": 1623.6745585539095,
+    "locked": false
+  },
+  {
+    "id": "Concurrency",
+    "x": 1067.2082996607198,
+    "y": 1300.0053309019727,
+    "locked": false
+  },
+  {
+    "id": "Performance Optimization",
+    "x": 1078.053745856586,
+    "y": 1768.837161953788,
+    "locked": false
+  },
+  {
+    "id": "Logging",
+    "x": 1553.1346169322776,
+    "y": 2534.660528170249,
+    "locked": true
+  },
+  {
+    "id": "Containerization",
+    "x": 1454.2704722083686,
+    "y": 2834.8110607248896,
+    "locked": false
+  },
+  {
+    "id": "Generators",
+    "x": 3061.3468835701065,
+    "y": 1992.182481698336,
+    "locked": false
+  },
+  {
+    "id": "File I/O",
+    "x": 694.4137946770533,
+    "y": 2492.1587318282172,
+    "locked": true
+  },
+  {
+    "id": "List Comprehensions",
+    "x": 2890.6579295062857,
+    "y": 1646.459856477872,
+    "locked": true
+  },
+  {
+    "id": "Security Practices",
+    "x": 1453.2517944733263,
+    "y": 1494.1803609153997,
+    "locked": false
+  },
+  {
+    "id": "Python",
+    "x": 1534.0676958837064,
+    "y": 1774.6515696367237,
+    "locked": true
+  },
+  {
+    "id": "Control Flow",
+    "x": 666.3295159547539,
+    "y": 2110.351748256673,
+    "locked": false
+  },
+  {
+    "id": "Event Loops",
+    "x": 647.9724336285262,
+    "y": 1010.6430523757642,
+    "locked": true
+  },
+  {
+    "id": "Microservices",
+    "x": 1505.214852999934,
+    "y": 2990.0655426021212,
+    "locked": false
+  },
+  {
+    "id": "Memory Management",
+    "x": 2302.552460125083,
+    "y": 2368.3631745792845,
+    "locked": false
+  },
+  {
+    "id": "Advanced Concurrency",
+    "x": 856.7599249768028,
+    "y": 983.0750336389793,
+    "locked": true
+  },
+  {
+    "id": "Inheritance",
+    "x": 2728.5528264546356,
+    "y": 679.0758294353969,
+    "locked": true
+  },
+  {
+    "id": "Multiprocessing",
+    "x": 519.1237315154302,
+    "y": 1314.5515307270164,
+    "locked": false
+  },
+  {
+    "id": "Python Internals",
+    "x": 1949.648139558676,
+    "y": 2103.1310568859367,
+    "locked": false
+  },
+  {
+    "id": "Variables",
+    "x": 475.1930289341466,
+    "y": 2348.843119781633,
+    "locked": false
+  },
+  {
+    "id": "Reference Counting",
+    "x": 2454.2713163442254,
+    "y": 2407.1818105474067,
+    "locked": true
+  },
+  {
+    "id": "CSV",
+    "x": 508.9058616675833,
+    "y": 2513.656734749163,
+    "locked": true
+  },
+  {
+    "id": "Object-Oriented Programming",
+    "x": 2531.05747276671,
+    "y": 794.6789388745649,
+    "locked": true
+  },
+  {
+    "id": "Profiling",
+    "x": 888.6903030228085,
+    "y": 1756.3896573869565,
+    "locked": false
+  },
+  {
+    "id": "JSON",
+    "x": 702.6881298439808,
+    "y": 2660.6816931996286,
+    "locked": true
+  },
+  {
+    "id": "Generator Expressions",
+    "x": 2875.908758347092,
+    "y": 1833.9982649883354,
+    "locked": true
+  },
+  {
+    "id": "PEP Standards",
+    "x": 1847.9930970441205,
+    "y": 1218.3489746936605,
+    "locked": true
+  },
+  {
+    "id": "Operators",
+    "x": 1015.4072825168101,
+    "y": 2320.2157584975835,
+    "locked": true
+  },
+  {
+    "id": "C Extensions",
+    "x": 2132.9788472148857,
+    "y": 2044.1717697092868,
+    "locked": true
+  },
+  {
+    "id": "Debugging Basics",
+    "x": 1534.4557699195584,
+    "y": 2071.4540807853937,
+    "locked": true
+  },
+  {
+    "id": "Error Handling",
+    "x": 1540.966394141148,
+    "y": 2369.286837229323,
+    "locked": true
+  },
+  {
+    "id": "Coroutines",
+    "x": 927.9762220468392,
+    "y": 845.9485047344459,
+    "locked": true
+  },
+  {
+    "id": "Programming Languages",
+    "x": 1789.2211277417762,
+    "y": 1611.7372941618714,
+    "locked": true
+  },
+  {
+    "id": "Integration Testing",
+    "x": 2227.254249056423,
+    "y": 2783.025352244105,
+    "locked": true
+  },
+  {
+    "id": "Testing",
+    "x": 1760.1456196688039,
+    "y": 2320.855781273002,
+    "locked": true
+  },
+  {
+    "id": "Pickle",
+    "x": 563.4833620561803,
+    "y": 2604.4247646852377,
+    "locked": true
+  },
+  {
+    "id": "Built-in Data Structures",
+    "x": 2096.96385825011,
+    "y": 743.4227420955839,
+    "locked": true
+  },
+  {
+    "id": "Lambdas",
+    "x": 2620.8039182812126,
+    "y": 1847.9060489886235,
+    "locked": true
+  },
+  {
+    "id": "Immutable",
+    "x": 1717.5716450822304,
+    "y": 642.4796639861654,
+    "locked": true
+  },
+  {
+    "id": "Design Patterns",
+    "x": 1659.9698101441963,
+    "y": 1162.9980305055187,
+    "locked": true
+  },
+  {
+    "id": "Dependency Management",
+    "x": 1384.175913173028,
+    "y": 2551.1314824536075,
+    "locked": false
+  },
+  {
+    "id": "Functional Programming",
+    "x": 2706.3926733259805,
+    "y": 1719.9811918815462,
+    "locked": true
+  },
+  {
+    "id": "Advanced Data Structures",
+    "x": 2045.12846937571,
+    "y": 532.3156097582657,
+    "locked": false
+  }
+]

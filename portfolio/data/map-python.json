@@ -1,0 +1,1088 @@
+{
+  "nodes": [
+    {
+      "id": "Network Programming",
+      "group": 3,
+      "url": "posts/network-programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Code Injection Prevention",
+      "group": 4,
+      "url": "posts/code-injection-prevention",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Garbage Collection",
+      "group": 5,
+      "url": "posts/garbage-collection",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Looping Constructs",
+      "group": 5,
+      "url": "posts/looping-constructs",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Metaprogramming",
+      "group": 4,
+      "url": "posts/metaprogramming",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Concurrency Basics",
+      "group": 4,
+      "url": "posts/concurrency-basics",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Encapsulation",
+      "group": 5,
+      "url": "posts/encapsulation",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Stubs",
+      "group": 5,
+      "url": "posts/stubs",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Generic",
+      "group": 3,
+      "url": "posts/generic",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Packaging",
+      "group": 3,
+      "url": "posts/packaging",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Async/Await",
+      "group": 5,
+      "url": "posts/async|await",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Decorators",
+      "group": 5,
+      "url": "posts/decorators",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Programming Paradigms",
+      "group": 2,
+      "url": "posts/programming-paradigms",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Web Frameworks",
+      "group": 4,
+      "url": "posts/web-frameworks",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Cython",
+      "group": 4,
+      "url": "posts/cython",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Dataclasses",
+      "group": 5,
+      "url": "posts/dataclasses",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Polymorphism",
+      "group": 5,
+      "url": "posts/polymorphism",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Abstraction",
+      "group": 5,
+      "url": "posts/abstraction",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Unit Testing",
+      "group": 4,
+      "url": "posts/unit-testing",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Objects",
+      "group": 5,
+      "url": "posts/objects",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Iterators",
+      "group": 6,
+      "url": "posts/iterators",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Mocks",
+      "group": 5,
+      "url": "posts/mocks",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Asyncio",
+      "group": 5,
+      "url": "posts/asyncio",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Advanced Testing",
+      "group": 4,
+      "url": "posts/advanced-testing",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Functions",
+      "group": 4,
+      "url": "posts/functions",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Context Managers",
+      "group": 6,
+      "url": "posts/context-managers",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Reflection",
+      "group": 5,
+      "url": "posts/reflection",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Lists",
+      "group": 7,
+      "url": "posts/lists",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "for",
+      "group": 6,
+      "url": "posts/for",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Dictionaries",
+      "group": 7,
+      "url": "posts/dictionaries",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Standard Library",
+      "group": 6,
+      "url": "posts/standard-library",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Modules",
+      "group": 5,
+      "url": "posts/modules",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Tuples",
+      "group": 7,
+      "url": "posts/tuples",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Asynchronous Programming",
+      "group": 4,
+      "url": "posts/asynchronous-programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Mutable",
+      "group": 6,
+      "url": "posts/mutable",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Introspection",
+      "group": 5,
+      "url": "posts/introspection",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "PyPy",
+      "group": 4,
+      "url": "posts/pypy",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Basic Syntax",
+      "group": 3,
+      "url": "posts/basic-syntax",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "if-else",
+      "group": 5,
+      "url": "posts/if-else",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Basic Object-Oriented Programming",
+      "group": 3,
+      "url": "posts/basic-object-oriented-programming",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Threading",
+      "group": 5,
+      "url": "posts/threading",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Sets",
+      "group": 7,
+      "url": "posts/sets",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Packages",
+      "group": 6,
+      "url": "posts/packages",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Parallel Processing",
+      "group": 5,
+      "url": "posts/parallel-processing",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Virtual Environments",
+      "group": 4,
+      "url": "posts/virtual-environments",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Data Types",
+      "group": 4,
+      "url": "posts/data-types",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Exception Handling",
+      "group": 5,
+      "url": "posts/exception-handling",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Best Practices",
+      "group": 3,
+      "url": "posts/best-practices",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Metaclasses",
+      "group": 5,
+      "url": "posts/metaclasses",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Collections",
+      "group": 6,
+      "url": "posts/collections",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Debugging Techniques",
+      "group": 5,
+      "url": "posts/debugging-techniques",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Classes",
+      "group": 4,
+      "url": "posts/classes",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "data types",
+      "group": 5,
+      "url": "posts/data-types",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Numba",
+      "group": 4,
+      "url": "posts/numba",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "while",
+      "group": 6,
+      "url": "posts/while",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "JIT Compilation",
+      "group": 4,
+      "url": "posts/jit-compilation",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Concurrency",
+      "group": 3,
+      "url": "posts/concurrency",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Performance Optimization",
+      "group": 3,
+      "url": "posts/performance-optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Logging",
+      "group": 5,
+      "url": "posts/logging",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Containerization",
+      "group": 5,
+      "url": "posts/containerization",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Generators",
+      "group": 5,
+      "url": "posts/generators",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "File I/O",
+      "group": 4,
+      "url": "posts/file-i|o",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "List Comprehensions",
+      "group": 4,
+      "url": "posts/list-comprehensions",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Security Practices",
+      "group": 3,
+      "url": "posts/security-practices",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Python",
+      "group": 2,
+      "url": "posts/python",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Control Flow",
+      "group": 4,
+      "url": "posts/control-flow",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Event Loops",
+      "group": 5,
+      "url": "posts/event-loops",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Microservices",
+      "group": 6,
+      "url": "posts/microservices",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Memory Management",
+      "group": 4,
+      "url": "posts/memory-management",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Advanced Concurrency",
+      "group": 4,
+      "url": "posts/advanced-concurrency",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Inheritance",
+      "group": 5,
+      "url": "posts/inheritance",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Multiprocessing",
+      "group": 5,
+      "url": "posts/multiprocessing",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Python Internals",
+      "group": 3,
+      "url": "posts/python-internals",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Variables",
+      "group": 5,
+      "url": "posts/variables",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Reference Counting",
+      "group": 5,
+      "url": "posts/reference-counting",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "CSV",
+      "group": 5,
+      "url": "posts/csv",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Object-Oriented Programming",
+      "group": 4,
+      "url": "posts/object-oriented-programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Profiling",
+      "group": 4,
+      "url": "posts/profiling",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "JSON",
+      "group": 5,
+      "url": "posts/json",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Generator Expressions",
+      "group": 4,
+      "url": "posts/generator-expressions",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "PEP Standards",
+      "group": 1,
+      "url": "posts/pep-standards",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Operators",
+      "group": 4,
+      "url": "posts/operators",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "C Extensions",
+      "group": 4,
+      "url": "posts/c-extensions",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Debugging Basics",
+      "group": 3,
+      "url": "posts/debugging-basics",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Error Handling",
+      "group": 4,
+      "url": "posts/error-handling",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Coroutines",
+      "group": 5,
+      "url": "posts/coroutines",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Programming Languages",
+      "group": 1,
+      "url": "posts/programming-languages",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Integration Testing",
+      "group": 5,
+      "url": "posts/integration-testing",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Testing",
+      "group": 3,
+      "url": "posts/testing",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Pickle",
+      "group": 5,
+      "url": "posts/pickle",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Built-in Data Structures",
+      "group": 4,
+      "url": "posts/built-in-data-structures",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Lambdas",
+      "group": 4,
+      "url": "posts/lambdas",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Immutable",
+      "group": 6,
+      "url": "posts/immutable",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Design Patterns",
+      "group": 1,
+      "url": "posts/design-patterns",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Dependency Management",
+      "group": 4,
+      "url": "posts/dependency-management",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Functional Programming",
+      "group": 3,
+      "url": "posts/functional-programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Advanced Data Structures",
+      "group": 5,
+      "url": "posts/advanced-data-structures",
+      "mastery": "Intermediate"
+    }
+  ],
+  "links": [
+    {
+      "source": "Programming Languages",
+      "target": "Python",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Python",
+      "target": "Basic Syntax",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Basic Syntax",
+      "target": "Data Types",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Basic Syntax",
+      "target": "Operators",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Data Types",
+      "target": "Variables",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Basic Syntax",
+      "target": "Control Flow",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Control Flow",
+      "target": "if-else",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Control Flow",
+      "target": "Looping Constructs",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Looping Constructs",
+      "target": "while",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Looping Constructs",
+      "target": "for",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Basic Syntax",
+      "target": "Functions",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Functions",
+      "target": "Modules",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Modules",
+      "target": "Packages",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Modules",
+      "target": "Standard Library",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Functions",
+      "target": "Exception Handling",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Basic Syntax",
+      "target": "File I/O",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Basic Object-Oriented Programming",
+      "target": "Classes",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Classes",
+      "target": "Objects",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Basic Object-Oriented Programming",
+      "target": "Built-in Data Structures",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "data types",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "data types",
+      "target": "Immutable",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "data types",
+      "target": "Mutable",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Immutable",
+      "target": "Tuples",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Mutable",
+      "target": "Lists",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Mutable",
+      "target": "Dictionaries",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Mutable",
+      "target": "Sets",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "Lists",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "Dictionaries",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "Sets",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "Tuples",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Python",
+      "target": "Debugging Basics",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "File I/O",
+      "target": "CSV",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "File I/O",
+      "target": "JSON",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "File I/O",
+      "target": "Pickle",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Programming Languages",
+      "target": "Programming Paradigms",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Programming Paradigms",
+      "target": "Basic Object-Oriented Programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Basic Object-Oriented Programming",
+      "target": "Object-Oriented Programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Object-Oriented Programming",
+      "target": "Inheritance",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Object-Oriented Programming",
+      "target": "Polymorphism",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Object-Oriented Programming",
+      "target": "Encapsulation",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Object-Oriented Programming",
+      "target": "Abstraction",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Object-Oriented Programming",
+      "target": "Decorators",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Decorators",
+      "target": "Context Managers",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Programming Paradigms",
+      "target": "Functional Programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Functional Programming",
+      "target": "Lambdas",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Functional Programming",
+      "target": "List Comprehensions",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Functional Programming",
+      "target": "Generator Expressions",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Generator Expressions",
+      "target": "Generators",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Generators",
+      "target": "Iterators",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Debugging Basics",
+      "target": "Error Handling",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Error Handling",
+      "target": "Logging",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Python",
+      "target": "Concurrency",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Concurrency",
+      "target": "Asynchronous Programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Asynchronous Programming",
+      "target": "Asyncio",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Concurrency",
+      "target": "Concurrency Basics",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Concurrency Basics",
+      "target": "Threading",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Concurrency Basics",
+      "target": "Multiprocessing",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Python",
+      "target": "Testing",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Testing",
+      "target": "Unit Testing",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Unit Testing",
+      "target": "Debugging Techniques",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Python",
+      "target": "Packaging",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Packaging",
+      "target": "Virtual Environments",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Python",
+      "target": "Network Programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Network Programming",
+      "target": "Web Frameworks",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "Advanced Data Structures",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Advanced Data Structures",
+      "target": "Collections",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Object-Oriented Programming",
+      "target": "Dataclasses",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Concurrency",
+      "target": "Advanced Concurrency",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Concurrency",
+      "target": "Async/Await",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Concurrency",
+      "target": "Event Loops",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Concurrency",
+      "target": "Coroutines",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Concurrency",
+      "target": "Parallel Processing",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Python",
+      "target": "Python Internals",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Python Internals",
+      "target": "Memory Management",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Memory Management",
+      "target": "Garbage Collection",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Memory Management",
+      "target": "Reference Counting",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Python Internals",
+      "target": "C Extensions",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Programming Paradigms",
+      "target": "Generic",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Generic",
+      "target": "Metaprogramming",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Metaprogramming",
+      "target": "Metaclasses",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Metaprogramming",
+      "target": "Introspection",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Metaprogramming",
+      "target": "Reflection",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Python",
+      "target": "Performance Optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Performance Optimization",
+      "target": "Profiling",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Performance Optimization",
+      "target": "Cython",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Performance Optimization",
+      "target": "JIT Compilation",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Performance Optimization",
+      "target": "PyPy",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Performance Optimization",
+      "target": "Numba",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Python",
+      "target": "Best Practices",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Design Patterns",
+      "target": "Best Practices",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Python",
+      "target": "Security Practices",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Security Practices",
+      "target": "Code Injection Prevention",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Testing",
+      "target": "Advanced Testing",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Testing",
+      "target": "Mocks",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Testing",
+      "target": "Stubs",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Testing",
+      "target": "Integration Testing",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "PEP Standards",
+      "target": "Best Practices",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Packaging",
+      "target": "Dependency Management",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Dependency Management",
+      "target": "Containerization",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Containerization",
+      "target": "Microservices",
+      "mastery": "Advanced"
+    }
+  ]
+}
