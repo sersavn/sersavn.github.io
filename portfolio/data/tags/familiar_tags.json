@@ -18,6 +18,12 @@
     },
     {
         "anchor": [
+            "Airflow"
+        ],
+        "tag": "airflow"
+    },
+    {
+        "anchor": [
             "anaconda"
         ],
         "tag": "anaconda"
