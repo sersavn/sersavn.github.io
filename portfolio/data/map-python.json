@@ -1,93 +1,21 @@
 {
   "nodes": [
     {
-      "id": "Network Programming",
-      "group": 3,
-      "url": "posts/network-programming",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Code Injection Prevention",
+      "id": "JIT Compilation",
       "group": 4,
-      "url": "posts/code-injection-prevention",
+      "url": "posts/jit-compilation",
       "mastery": "Advanced"
     },
     {
-      "id": "Garbage Collection",
+      "id": "MyPy",
       "group": 5,
-      "url": "posts/garbage-collection",
+      "url": "posts/mypy",
       "mastery": "Advanced"
     },
     {
-      "id": "Looping Constructs",
-      "group": 5,
-      "url": "posts/looping-constructs",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Metaprogramming",
+      "id": "Metaclasses",
       "group": 4,
-      "url": "posts/metaprogramming",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Concurrency Basics",
-      "group": 4,
-      "url": "posts/concurrency-basics",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Encapsulation",
-      "group": 5,
-      "url": "posts/encapsulation",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Stubs",
-      "group": 5,
-      "url": "posts/stubs",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Generic",
-      "group": 3,
-      "url": "posts/generic",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Packaging",
-      "group": 3,
-      "url": "posts/packaging",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Async/Await",
-      "group": 5,
-      "url": "posts/async|await",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Decorators",
-      "group": 5,
-      "url": "posts/decorators",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Programming Paradigms",
-      "group": 2,
-      "url": "posts/programming-paradigms",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Web Frameworks",
-      "group": 4,
-      "url": "posts/web-frameworks",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Cython",
-      "group": 4,
-      "url": "posts/cython",
+      "url": "posts/metaclasses",
       "mastery": "Advanced"
     },
     {
@@ -97,15 +25,117 @@
       "mastery": "Intermediate"
     },
     {
-      "id": "Polymorphism",
+      "id": "Stubs",
       "group": 5,
-      "url": "posts/polymorphism",
+      "url": "posts/stubs",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "defaultdict",
+      "group": 4,
+      "url": "posts/defaultdict",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Modules",
+      "group": 5,
+      "url": "posts/modules",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "virtualenv",
+      "group": 5,
+      "url": "posts/virtualenv",
       "mastery": "Intermediate"
     },
     {
-      "id": "Abstraction",
+      "id": "bytearray",
       "group": 5,
-      "url": "posts/abstraction",
+      "url": "posts/bytearray",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "map",
+      "group": 4,
+      "url": "posts/map",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Integration Testing",
+      "group": 5,
+      "url": "posts/integration-testing",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Reference Counting",
+      "group": 5,
+      "url": "posts/reference-counting",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Built-in Data Types",
+      "group": 3,
+      "url": "posts/built-in-data-types",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Pythonic Idioms",
+      "group": 4,
+      "url": "posts/pythonic-idioms",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "frozenset",
+      "group": 6,
+      "url": "posts/frozenset",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "docker",
+      "group": 5,
+      "url": "posts/docker",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "reduce",
+      "group": 4,
+      "url": "posts/reduce",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Profiling",
+      "group": 4,
+      "url": "posts/profiling",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "range",
+      "group": 6,
+      "url": "posts/range",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Objects",
+      "group": 5,
+      "url": "posts/objects",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Threading",
+      "group": 5,
+      "url": "posts/threading",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "break",
+      "group": 6,
+      "url": "posts/break",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "List Comprehensions",
+      "group": 4,
+      "url": "posts/list-comprehensions",
       "mastery": "Intermediate"
     },
     {
@@ -115,16 +145,16 @@
       "mastery": "Intermediate"
     },
     {
-      "id": "Objects",
-      "group": 5,
-      "url": "posts/objects",
+      "id": "Dynamic Typing",
+      "group": 4,
+      "url": "posts/dynamic-typing",
       "mastery": "Foundational"
     },
     {
-      "id": "Iterators",
-      "group": 6,
-      "url": "posts/iterators",
-      "mastery": "Intermediate"
+      "id": "Code Injection Prevention",
+      "group": 4,
+      "url": "posts/code-injection-prevention",
+      "mastery": "Advanced"
     },
     {
       "id": "Mocks",
@@ -133,9 +163,417 @@
       "mastery": "Advanced"
     },
     {
-      "id": "Asyncio",
+      "id": "bytes",
       "group": 5,
-      "url": "posts/asyncio",
+      "url": "posts/bytes",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Asynchronous Programming",
+      "group": 4,
+      "url": "posts/asynchronous-programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "args kwargs",
+      "group": 6,
+      "url": "posts/args-kwargs",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Web Frameworks",
+      "group": 4,
+      "url": "posts/web-frameworks",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Design Patterns",
+      "group": 1,
+      "url": "posts/design-patterns",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "cProfile",
+      "group": 6,
+      "url": "posts/cprofile",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Performance Optimization",
+      "group": 3,
+      "url": "posts/performance-optimization",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Debugging Basics",
+      "group": 3,
+      "url": "posts/debugging-basics",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "JSON",
+      "group": 5,
+      "url": "posts/json",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Logging",
+      "group": 5,
+      "url": "posts/logging",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Abstraction",
+      "group": 5,
+      "url": "posts/abstraction",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Standard Library",
+      "group": 6,
+      "url": "posts/standard-library",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Built-in Data Structures",
+      "group": 3,
+      "url": "posts/built-in-data-structures",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "int",
+      "group": 5,
+      "url": "posts/int",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Logical Operators",
+      "group": 5,
+      "url": "posts/logical-operators",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Multiprocessing",
+      "group": 5,
+      "url": "posts/multiprocessing",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Network Programming",
+      "group": 3,
+      "url": "posts/network-programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Error Handling",
+      "group": 4,
+      "url": "posts/error-handling",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Operators",
+      "group": 4,
+      "url": "posts/operators",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Non-Primitive",
+      "group": 5,
+      "url": "posts/non-primitive",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Primitive",
+      "group": 4,
+      "url": "posts/primitive",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Python",
+      "group": 2,
+      "url": "posts/python",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Conditional statements",
+      "group": 5,
+      "url": "posts/conditional-statements",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Decorators",
+      "group": 5,
+      "url": "posts/decorators",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Exception Handling",
+      "group": 5,
+      "url": "posts/exception-handling",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Static Analysis",
+      "group": 4,
+      "url": "posts/static-analysis",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "C Extensions",
+      "group": 4,
+      "url": "posts/c-extensions",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Classes",
+      "group": 4,
+      "url": "posts/classes",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "deque",
+      "group": 4,
+      "url": "posts/deque",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Concurrency Basics",
+      "group": 4,
+      "url": "posts/concurrency-basics",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Virtual Environments",
+      "group": 4,
+      "url": "posts/virtual-environments",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "PEP Standards",
+      "group": 3,
+      "url": "posts/pep-standards",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "float",
+      "group": 5,
+      "url": "posts/float",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Debugging Techniques",
+      "group": 5,
+      "url": "posts/debugging-techniques",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Py-Spy",
+      "group": 6,
+      "url": "posts/py-spy",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Deployment",
+      "group": 4,
+      "url": "posts/deployment",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Event Loops",
+      "group": 5,
+      "url": "posts/event-loops",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "pip",
+      "group": 5,
+      "url": "posts/pip",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Testing",
+      "group": 3,
+      "url": "posts/testing",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Python Internals",
+      "group": 3,
+      "url": "posts/python-internals",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Data Types",
+      "group": 4,
+      "url": "posts/data-types",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Object-Oriented Programming",
+      "group": 4,
+      "url": "posts/object-oriented-programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "ipdb",
+      "group": 6,
+      "url": "posts/ipdb",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Programming Paradigms",
+      "group": 2,
+      "url": "posts/programming-paradigms",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Containerization",
+      "group": 5,
+      "url": "posts/containerization",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "complex",
+      "group": 5,
+      "url": "posts/complex",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "continue",
+      "group": 6,
+      "url": "posts/continue",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Generator Expressions",
+      "group": 4,
+      "url": "posts/generator-expressions",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "f-strings",
+      "group": 3,
+      "url": "posts/f-strings",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "memoryview",
+      "group": 5,
+      "url": "posts/memoryview",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Polymorphism",
+      "group": 5,
+      "url": "posts/polymorphism",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Basic Networking",
+      "group": 4,
+      "url": "posts/basic-networking",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Type Checking",
+      "group": 4,
+      "url": "posts/type-checking",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "CSV",
+      "group": 5,
+      "url": "posts/csv",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Context Managers",
+      "group": 6,
+      "url": "posts/context-managers",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Programming Languages",
+      "group": 1,
+      "url": "posts/programming-languages",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Variables",
+      "group": 5,
+      "url": "posts/variables",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Coroutines",
+      "group": 5,
+      "url": "posts/coroutines",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Async/Await",
+      "group": 5,
+      "url": "posts/async|await",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Code Style & Quality",
+      "group": 3,
+      "url": "posts/code-style-&-quality",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Memory Management",
+      "group": 4,
+      "url": "posts/memory-management",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "for",
+      "group": 6,
+      "url": "posts/for",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "GIL",
+      "group": 4,
+      "url": "posts/gil",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Looping Constructs",
+      "group": 5,
+      "url": "posts/looping-constructs",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Parallel Processing",
+      "group": 5,
+      "url": "posts/parallel-processing",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Counter",
+      "group": 4,
+      "url": "posts/counter",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Pickle",
+      "group": 5,
+      "url": "posts/pickle",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Security Practices",
+      "group": 3,
+      "url": "posts/security-practices",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Concurrency",
+      "group": 3,
+      "url": "posts/concurrency",
       "mastery": "Intermediate"
     },
     {
@@ -151,76 +589,64 @@
       "mastery": "Foundational"
     },
     {
-      "id": "Context Managers",
-      "group": 6,
-      "url": "posts/context-managers",
+      "id": "Comparison Operators",
+      "group": 5,
+      "url": "posts/comparison-operators",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Metaprogramming",
+      "group": 3,
+      "url": "posts/metaprogramming",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Performance Tuning",
+      "group": 4,
+      "url": "posts/performance-tuning",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "str",
+      "group": 5,
+      "url": "posts/str",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "filter",
+      "group": 4,
+      "url": "posts/filter",
       "mastery": "Intermediate"
     },
     {
-      "id": "Reflection",
-      "group": 5,
-      "url": "posts/reflection",
+      "id": "Advanced Concurrency",
+      "group": 4,
+      "url": "posts/advanced-concurrency",
       "mastery": "Advanced"
     },
     {
-      "id": "Lists",
-      "group": 7,
-      "url": "posts/lists",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "for",
-      "group": 6,
-      "url": "posts/for",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Dictionaries",
-      "group": 7,
-      "url": "posts/dictionaries",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Standard Library",
-      "group": 6,
-      "url": "posts/standard-library",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Modules",
+      "id": "Closures",
       "group": 5,
-      "url": "posts/modules",
+      "url": "posts/closures",
       "mastery": "Foundational"
     },
     {
-      "id": "Tuples",
-      "group": 7,
-      "url": "posts/tuples",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Asynchronous Programming",
+      "id": "Dependency Management",
       "group": 4,
-      "url": "posts/asynchronous-programming",
+      "url": "posts/dependency-management",
       "mastery": "Intermediate"
     },
     {
-      "id": "Mutable",
-      "group": 6,
-      "url": "posts/mutable",
+      "id": "Control Flow",
+      "group": 4,
+      "url": "posts/control-flow",
       "mastery": "Foundational"
     },
     {
-      "id": "Introspection",
+      "id": "bool",
       "group": 5,
-      "url": "posts/introspection",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "PyPy",
-      "group": 4,
-      "url": "posts/pypy",
-      "mastery": "Advanced"
+      "url": "posts/bool",
+      "mastery": "Foundational"
     },
     {
       "id": "Basic Syntax",
@@ -229,27 +655,99 @@
       "mastery": "Foundational"
     },
     {
-      "id": "if-else",
-      "group": 5,
-      "url": "posts/if-else",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Basic Object-Oriented Programming",
+      "id": "Deployment Architectures",
       "group": 3,
-      "url": "posts/basic-object-oriented-programming",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Threading",
-      "group": 5,
-      "url": "posts/threading",
+      "url": "posts/deployment-architectures",
       "mastery": "Intermediate"
     },
     {
-      "id": "Sets",
-      "group": 7,
-      "url": "posts/sets",
+      "id": "lambda",
+      "group": 4,
+      "url": "posts/lambda",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Numba",
+      "group": 4,
+      "url": "posts/numba",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Features",
+      "group": 3,
+      "url": "posts/features",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Identity Operators",
+      "group": 5,
+      "url": "posts/identity-operators",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "namedtuple",
+      "group": 4,
+      "url": "posts/namedtuple",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Introspection",
+      "group": 4,
+      "url": "posts/introspection",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Best Practices",
+      "group": 4,
+      "url": "posts/best-practices",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "File I/O",
+      "group": 4,
+      "url": "posts/file-i|o",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "pdb",
+      "group": 6,
+      "url": "posts/pdb",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Advanced Data Structures",
+      "group": 4,
+      "url": "posts/advanced-data-structures",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "idiomatic constructs",
+      "group": 5,
+      "url": "posts/idiomatic-constructs",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "tuple",
+      "group": 6,
+      "url": "posts/tuple",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Inheritance",
+      "group": 5,
+      "url": "posts/inheritance",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Arithmetic Operators",
+      "group": 5,
+      "url": "posts/arithmetic-operators",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "OrderedDict",
+      "group": 4,
+      "url": "posts/ordereddict",
       "mastery": "Foundational"
     },
     {
@@ -259,315 +757,15 @@
       "mastery": "Foundational"
     },
     {
-      "id": "Parallel Processing",
-      "group": 5,
-      "url": "posts/parallel-processing",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Virtual Environments",
-      "group": 4,
-      "url": "posts/virtual-environments",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Data Types",
-      "group": 4,
-      "url": "posts/data-types",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Exception Handling",
-      "group": 5,
-      "url": "posts/exception-handling",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Best Practices",
-      "group": 3,
-      "url": "posts/best-practices",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Metaclasses",
-      "group": 5,
-      "url": "posts/metaclasses",
-      "mastery": "Advanced"
-    },
-    {
       "id": "Collections",
-      "group": 6,
+      "group": 5,
       "url": "posts/collections",
       "mastery": "Intermediate"
     },
     {
-      "id": "Debugging Techniques",
-      "group": 5,
-      "url": "posts/debugging-techniques",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Classes",
+      "id": "Cython",
       "group": 4,
-      "url": "posts/classes",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "data types",
-      "group": 5,
-      "url": "posts/data-types",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Numba",
-      "group": 4,
-      "url": "posts/numba",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "while",
-      "group": 6,
-      "url": "posts/while",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "JIT Compilation",
-      "group": 4,
-      "url": "posts/jit-compilation",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Concurrency",
-      "group": 3,
-      "url": "posts/concurrency",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Performance Optimization",
-      "group": 3,
-      "url": "posts/performance-optimization",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Logging",
-      "group": 5,
-      "url": "posts/logging",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Containerization",
-      "group": 5,
-      "url": "posts/containerization",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Generators",
-      "group": 5,
-      "url": "posts/generators",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "File I/O",
-      "group": 4,
-      "url": "posts/file-i|o",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "List Comprehensions",
-      "group": 4,
-      "url": "posts/list-comprehensions",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Security Practices",
-      "group": 3,
-      "url": "posts/security-practices",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Python",
-      "group": 2,
-      "url": "posts/python",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Control Flow",
-      "group": 4,
-      "url": "posts/control-flow",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Event Loops",
-      "group": 5,
-      "url": "posts/event-loops",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Microservices",
-      "group": 6,
-      "url": "posts/microservices",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Memory Management",
-      "group": 4,
-      "url": "posts/memory-management",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Advanced Concurrency",
-      "group": 4,
-      "url": "posts/advanced-concurrency",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Inheritance",
-      "group": 5,
-      "url": "posts/inheritance",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Multiprocessing",
-      "group": 5,
-      "url": "posts/multiprocessing",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Python Internals",
-      "group": 3,
-      "url": "posts/python-internals",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Variables",
-      "group": 5,
-      "url": "posts/variables",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Reference Counting",
-      "group": 5,
-      "url": "posts/reference-counting",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "CSV",
-      "group": 5,
-      "url": "posts/csv",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Object-Oriented Programming",
-      "group": 4,
-      "url": "posts/object-oriented-programming",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Profiling",
-      "group": 4,
-      "url": "posts/profiling",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "JSON",
-      "group": 5,
-      "url": "posts/json",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Generator Expressions",
-      "group": 4,
-      "url": "posts/generator-expressions",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "PEP Standards",
-      "group": 1,
-      "url": "posts/pep-standards",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Operators",
-      "group": 4,
-      "url": "posts/operators",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "C Extensions",
-      "group": 4,
-      "url": "posts/c-extensions",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Debugging Basics",
-      "group": 3,
-      "url": "posts/debugging-basics",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Error Handling",
-      "group": 4,
-      "url": "posts/error-handling",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Coroutines",
-      "group": 5,
-      "url": "posts/coroutines",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Programming Languages",
-      "group": 1,
-      "url": "posts/programming-languages",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Integration Testing",
-      "group": 5,
-      "url": "posts/integration-testing",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Testing",
-      "group": 3,
-      "url": "posts/testing",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Pickle",
-      "group": 5,
-      "url": "posts/pickle",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Built-in Data Structures",
-      "group": 4,
-      "url": "posts/built-in-data-structures",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Lambdas",
-      "group": 4,
-      "url": "posts/lambdas",
-      "mastery": "Intermediate"
-    },
-    {
-      "id": "Immutable",
-      "group": 6,
-      "url": "posts/immutable",
-      "mastery": "Foundational"
-    },
-    {
-      "id": "Design Patterns",
-      "group": 1,
-      "url": "posts/design-patterns",
-      "mastery": "Advanced"
-    },
-    {
-      "id": "Dependency Management",
-      "group": 4,
-      "url": "posts/dependency-management",
+      "url": "posts/cython",
       "mastery": "Advanced"
     },
     {
@@ -577,16 +775,122 @@
       "mastery": "Intermediate"
     },
     {
-      "id": "Advanced Data Structures",
-      "group": 5,
-      "url": "posts/advanced-data-structures",
+      "id": "Microservices",
+      "group": 6,
+      "url": "posts/microservices",
       "mastery": "Intermediate"
+    },
+    {
+      "id": "dict",
+      "group": 6,
+      "url": "posts/dict",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "nonlocal",
+      "group": 6,
+      "url": "posts/nonlocal",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Encapsulation",
+      "group": 5,
+      "url": "posts/encapsulation",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Iterators",
+      "group": 6,
+      "url": "posts/iterators",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "set",
+      "group": 6,
+      "url": "posts/set",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Asyncio",
+      "group": 5,
+      "url": "posts/asyncio",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Garbage Collection",
+      "group": 5,
+      "url": "posts/garbage-collection",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Generators",
+      "group": 5,
+      "url": "posts/generators",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "Basic Object-Oriented Programming",
+      "group": 3,
+      "url": "posts/basic-object-oriented-programming",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "while",
+      "group": 6,
+      "url": "posts/while",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Packaging & Environments",
+      "group": 3,
+      "url": "posts/packaging-&-environments",
+      "mastery": "Intermediate"
+    },
+    {
+      "id": "PyPy",
+      "group": 4,
+      "url": "posts/pypy",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "list",
+      "group": 6,
+      "url": "posts/list",
+      "mastery": "Foundational"
+    },
+    {
+      "id": "Advanced Debugging and Profiling Tools",
+      "group": 5,
+      "url": "posts/advanced-debugging-and-profiling-tools",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Reflection",
+      "group": 4,
+      "url": "posts/reflection",
+      "mastery": "Advanced"
+    },
+    {
+      "id": "Arguments",
+      "group": 5,
+      "url": "posts/arguments",
+      "mastery": "Foundational"
     }
   ],
   "links": [
     {
       "source": "Programming Languages",
       "target": "Python",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Python",
+      "target": "Features",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Features",
+      "target": "Dynamic Typing",
       "mastery": "Foundational"
     },
     {
@@ -600,13 +904,143 @@
       "mastery": "Foundational"
     },
     {
-      "source": "Basic Syntax",
-      "target": "Operators",
+      "source": "Python",
+      "target": "Built-in Data Types",
       "mastery": "Foundational"
     },
     {
-      "source": "Data Types",
-      "target": "Variables",
+      "source": "Built-in Data Types",
+      "target": "Primitive",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "int",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "float",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "complex",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "bool",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "str",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "bytes",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "bytearray",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "memoryview",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Primitive",
+      "target": "Non-Primitive",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Non-Primitive",
+      "target": "list",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Non-Primitive",
+      "target": "tuple",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Non-Primitive",
+      "target": "set",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Non-Primitive",
+      "target": "frozenset",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Non-Primitive",
+      "target": "dict",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Non-Primitive",
+      "target": "range",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Python",
+      "target": "Built-in Data Structures",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "list",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "tuple",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "set",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "frozenset",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "dict",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "deque",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "OrderedDict",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "defaultdict",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "Counter",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Built-in Data Structures",
+      "target": "namedtuple",
       "mastery": "Foundational"
     },
     {
@@ -616,7 +1050,7 @@
     },
     {
       "source": "Control Flow",
-      "target": "if-else",
+      "target": "Conditional statements",
       "mastery": "Foundational"
     },
     {
@@ -632,6 +1066,46 @@
     {
       "source": "Looping Constructs",
       "target": "for",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Looping Constructs",
+      "target": "continue",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Looping Constructs",
+      "target": "break",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Basic Syntax",
+      "target": "Operators",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Operators",
+      "target": "Comparison Operators",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Operators",
+      "target": "Identity Operators",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Operators",
+      "target": "Arithmetic Operators",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Operators",
+      "target": "Logical Operators",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Data Types",
+      "target": "Variables",
       "mastery": "Foundational"
     },
     {
@@ -660,6 +1134,26 @@
       "mastery": "Foundational"
     },
     {
+      "source": "Functions",
+      "target": "Arguments",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Arguments",
+      "target": "args kwargs",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Functions",
+      "target": "Closures",
+      "mastery": "Foundational"
+    },
+    {
+      "source": "Closures",
+      "target": "nonlocal",
+      "mastery": "Foundational"
+    },
+    {
       "source": "Basic Syntax",
       "target": "File I/O",
       "mastery": "Foundational"
@@ -672,66 +1166,6 @@
     {
       "source": "Classes",
       "target": "Objects",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Basic Object-Oriented Programming",
-      "target": "Built-in Data Structures",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Built-in Data Structures",
-      "target": "data types",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "data types",
-      "target": "Immutable",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "data types",
-      "target": "Mutable",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Immutable",
-      "target": "Tuples",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Mutable",
-      "target": "Lists",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Mutable",
-      "target": "Dictionaries",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Mutable",
-      "target": "Sets",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Built-in Data Structures",
-      "target": "Lists",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Built-in Data Structures",
-      "target": "Dictionaries",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Built-in Data Structures",
-      "target": "Sets",
-      "mastery": "Foundational"
-    },
-    {
-      "source": "Built-in Data Structures",
-      "target": "Tuples",
       "mastery": "Foundational"
     },
     {
@@ -806,7 +1240,7 @@
     },
     {
       "source": "Functional Programming",
-      "target": "Lambdas",
+      "target": "lambda",
       "mastery": "Intermediate"
     },
     {
@@ -817,6 +1251,21 @@
     {
       "source": "Functional Programming",
       "target": "Generator Expressions",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Functional Programming",
+      "target": "map",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Functional Programming",
+      "target": "filter",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Functional Programming",
+      "target": "reduce",
       "mastery": "Intermediate"
     },
     {
@@ -886,17 +1335,77 @@
     },
     {
       "source": "Python",
-      "target": "Packaging",
+      "target": "Packaging & Environments",
       "mastery": "Intermediate"
     },
     {
-      "source": "Packaging",
+      "source": "Packaging & Environments",
       "target": "Virtual Environments",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Packaging & Environments",
+      "target": "Deployment",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Packaging & Environments",
+      "target": "Dependency Management",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Dependency Management",
+      "target": "Containerization",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Containerization",
+      "target": "Microservices",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Python",
+      "target": "Deployment Architectures",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Deployment Architectures",
+      "target": "Dependency Management",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Deployment Architectures",
+      "target": "Containerization",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Deployment Architectures",
+      "target": "Microservices",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Deployment",
+      "target": "pip",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Deployment",
+      "target": "virtualenv",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Deployment",
+      "target": "docker",
       "mastery": "Intermediate"
     },
     {
       "source": "Python",
       "target": "Network Programming",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Network Programming",
+      "target": "Basic Networking",
       "mastery": "Intermediate"
     },
     {
@@ -912,6 +1421,11 @@
     {
       "source": "Advanced Data Structures",
       "target": "Collections",
+      "mastery": "Intermediate"
+    },
+    {
+      "source": "Advanced Data Structures",
+      "target": "Dataclasses",
       "mastery": "Intermediate"
     },
     {
@@ -951,6 +1465,11 @@
     },
     {
       "source": "Python Internals",
+      "target": "GIL",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Python Internals",
       "target": "Memory Management",
       "mastery": "Advanced"
     },
@@ -971,11 +1490,6 @@
     },
     {
       "source": "Programming Paradigms",
-      "target": "Generic",
-      "mastery": "Advanced"
-    },
-    {
-      "source": "Generic",
       "target": "Metaprogramming",
       "mastery": "Advanced"
     },
@@ -995,6 +1509,11 @@
       "mastery": "Advanced"
     },
     {
+      "source": "Metaprogramming",
+      "target": "C Extensions",
+      "mastery": "Advanced"
+    },
+    {
       "source": "Python",
       "target": "Performance Optimization",
       "mastery": "Advanced"
@@ -1002,6 +1521,11 @@
     {
       "source": "Performance Optimization",
       "target": "Profiling",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Performance Optimization",
+      "target": "Performance Tuning",
       "mastery": "Advanced"
     },
     {
@@ -1036,6 +1560,56 @@
     },
     {
       "source": "Python",
+      "target": "Code Style & Quality",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Code Style & Quality",
+      "target": "Pythonic Idioms",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Pythonic Idioms",
+      "target": "idiomatic constructs",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Code Style & Quality",
+      "target": "Best Practices",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Best Practices",
+      "target": "PEP Standards",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Best Practices",
+      "target": "f-strings",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Code Style & Quality",
+      "target": "Static Analysis",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Code Style & Quality",
+      "target": "Type Checking",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Static Analysis",
+      "target": "MyPy",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Type Checking",
+      "target": "MyPy",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Python",
       "target": "Security Practices",
       "mastery": "Advanced"
     },
@@ -1065,23 +1639,28 @@
       "mastery": "Advanced"
     },
     {
-      "source": "PEP Standards",
-      "target": "Best Practices",
+      "source": "Advanced Testing",
+      "target": "Advanced Debugging and Profiling Tools",
       "mastery": "Advanced"
     },
     {
-      "source": "Packaging",
-      "target": "Dependency Management",
+      "source": "Advanced Debugging and Profiling Tools",
+      "target": "pdb",
       "mastery": "Advanced"
     },
     {
-      "source": "Dependency Management",
-      "target": "Containerization",
+      "source": "Advanced Debugging and Profiling Tools",
+      "target": "ipdb",
       "mastery": "Advanced"
     },
     {
-      "source": "Containerization",
-      "target": "Microservices",
+      "source": "Advanced Debugging and Profiling Tools",
+      "target": "cProfile",
+      "mastery": "Advanced"
+    },
+    {
+      "source": "Advanced Debugging and Profiling Tools",
+      "target": "Py-Spy",
       "mastery": "Advanced"
     }
   ]
